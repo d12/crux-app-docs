@@ -1,6 +1,8 @@
-# Website
+# Crux App - Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This repo is for the open source documentation for the [Crux Climbing App](https://www.cruxapp.ca/). The documentation is built using [Docusaurus ](https://docusaurus.io/).
+
+This project is still under construction. :)
 
 ### Installation
 
