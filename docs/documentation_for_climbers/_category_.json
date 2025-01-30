@@ -1,0 +1,8 @@
+{
+  "label": "Documentation for Climbers",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Crux Climbing App documentation for climbers at either commercial climbing gyms or home walls."
+  }
+}
