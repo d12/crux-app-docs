@@ -8,11 +8,11 @@ sidebar_position: 4
 
 Homewalls get access to all features on Crux for free. This includes unlimited walls, resets, and climbs.
 
-## Who can set on my home wall?
+## Who can set on my homewall?
 
 By default, only you can set on your home wall. To add setters, refer to the [adding and removing setters documentation](/docs/documentation-for-climbers/homewall-specific-features/adding-and-removing-setters.md).
 
-## How do I add my homewal?
+## How do I add my homewall?
 
 1. Begin the gym creation process by clicking "Add a commercial gym or home wall" on the gym selection page. Additional instructions can be found [here](/docs/documentation-for-climbers/getting-started/selecting-your-gym.md).
 2. On the first page, enter the gym's name and location. Select "Home climbing wall" for the type.
