@@ -1,10 +1,12 @@
 ---
 sidebar_position: 1
+slug: /
+id: introduction
 ---
 
 # Introduction
 
-Hey there! Welcome to the Crux App's documentation site 👋
+Hey there! Welcome to the Crux Climbing App's documentation site 👋
 
 Whether you're a gym climber, home wall climber, or climbing gym owner, you'll find all the information you need to get started with Crux right here.
 
@@ -16,7 +18,7 @@ The "secret sauce" of Crux is our ability to scan images instantly for holds. Th
 
 ## Who's using Crux?
 
-Crux has been used by over 30,000 climbers from over 50 countries. We've partnered with more than 100 commercial climbing gyms and are used at thousands of home-walls around the world. Over 100,000 climbs have been set with Crux, and we're just getting started!
+Crux has been used by over 30,000 climbers from over 50 countries. We've partnered with more than 100 commercial climbing gyms and are used at thousands of homewalls around the world. Over 100,000 climbs have been set with Crux, and we're just getting started!
 
 ## Navigating the documentation
 

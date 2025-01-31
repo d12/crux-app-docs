@@ -34,26 +34,14 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          routeBasePath: "/",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // sidebarCollapsible: false,
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -71,51 +59,76 @@ const config: Config = {
         src: 'img/crux.png',
       },
       items: [
+        {
+          label: "Crux Website",
+          href: "https://www.cruxapp.ca/",
+          position: "right"
+        }
       ],
     },
     footer: {
       links: [
         {
-          title: 'Docs',
+          title: 'Documentation',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Home',
+              to: '/',
             },
+            {
+              label: "Downloading Crux",
+              to: "/downloading-crux",
+            },
+            {
+              label: "Documentation for Climbers",
+              to: "/documentation-for-climbers",
+            },
+            {
+              label: "Documentation for Gym Staff",
+              to: "/documentation-for-gym-staff",
+            }
+          ],
+        },
+        {
+          title: 'Crux Website',
+          items: [
+            {
+              label: 'Crux for Gyms',
+              href: 'https://www.cruxapp.ca/',
+            },
+            {
+              label: 'Crux for Climbers',
+              href: 'https://www.cruxapp.ca/climbers',
+            },
+            {
+              label: 'Crux for Homewalls',
+              href: 'https://www.cruxapp.ca/homewalls',
+            },
+            {
+              label: "Crux vs Stōkt",
+              href: "https://www.cruxapp.ca/en/crux-vs-stokt"
+            },
+            {
+              label: "Contact Us",
+              href: "https://www.cruxapp.ca/contact"
+            }
           ],
         },
         {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              to: 'https://discord.com/invite/ypt6e9HBVC',
             },
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Instagram',
+              href: 'https://www.instagram.com/climbwithcrux/',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
