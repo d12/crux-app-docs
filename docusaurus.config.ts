@@ -9,6 +9,9 @@ const config: Config = {
   tagline: 'Learn how to use the Crux Climbing App',
   favicon: 'img/favicon.ico',
 
+  organizationName: "d12",
+  projectName: "crux-docs",
+
   // Set the production url of your site here
   url: 'https://docs.cruxapp.ca',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -17,6 +20,8 @@ const config: Config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+
+  trailingSlash: false,
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
