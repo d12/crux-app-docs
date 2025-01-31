@@ -10,7 +10,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   organizationName: "d12",
-  projectName: "crux-docs",
+  projectName: "crux-app-docs",
 
   // Set the production url of your site here
   url: 'https://docs.cruxapp.ca',
