@@ -10,7 +10,7 @@ In most other climbing apps, you have a single photo for your wall or gym that y
 
 In Crux, we allow you to select or take a photo for each climb. This means that if your holds change, or if you want to set a climb on a new area of the wall, you can just take a photo and upload it to Crux. There's no additional charge or fee for additional photos.
 
-Obviously needing to take a photo every time would be tedious, so we allow you to re-use previously uploaded photos as well. More about this in the following sections :)
+Obviously needing to take a photo every time you set a climb would be tedious, so we allow you to re-use previously uploaded photos as well. More about this in the following sections :)
 
 ## How to set a climb
 
