@@ -13,9 +13,9 @@ Crux allows climbers to share photos and beta videos with the community. This fe
 3. Click the blue "New comment" button in the bottom right.
 4. Fill out the comment form.
 
-Note that we upload beta videos in the background, so you can continue to use the app while your video uploads.
+<img src="/img/posting-comments.png" alt="Posting a comment on a climb on the Crux Climbing App." width="300px" />
 
-## Where to find photos and beta videos
+## Discovering photos and beta videos
 
 Photos and beta videos are displayed in the comments section of each climb. You can scroll through the comments to see all the photos and videos that have been shared for that climb.
 
