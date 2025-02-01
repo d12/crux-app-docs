@@ -1,6 +1,5 @@
 ---
-sidebar_position: 11
+sidebar_position: 5
 ---
-<!-- TODO: Properly position this in the sidebar -->
 
 # Private climb notes
