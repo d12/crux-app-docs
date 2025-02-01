@@ -18,13 +18,13 @@ The main tab of the profile is the stats page. Here, there are three main graphs
 - The second graph "Climbing styles" shows the styles of climbs that you tend to send. This graph is useful for understanding your strengths and weaknesses.
 - The last graphs "Monthly trends by grade" shows how many of each grade you've sent in the last month, and compares this to the month before. This graph is helpful for understanding if you're progressing.
 
-<img src="/img/stats.png" alt="Stats and graphs on a users profile page on the Crux Climbing App" width="300px" />
+<img src="/img/stats.png" alt="Stats and graphs on a users profile page on the Crux Climbing App" class="screenshot" />
 
 ## Sessions tab
 
 The second tab is the climb sessions tab. Here, you can deep-dive into each climbing session and see what you worked on during each session. You can also see your trends month-by-month on the calendar. Each colored square represents a session, and the color represents the highest grade you sent during that session.
 
-<img src="/img/sessions-calendar.png" alt="The sessions calendar on the Crux Climbing App" width="300px" />
+<img src="/img/sessions-calendar.png" alt="The sessions calendar on the Crux Climbing App" class="screenshot" />
 
 If you click a date on the calendar, it'll bring you to the session view where you can see:
 - The climbs you sent that day

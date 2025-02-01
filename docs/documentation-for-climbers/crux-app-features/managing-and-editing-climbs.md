@@ -22,7 +22,7 @@ If you need to update the selected holds on an image, you can click the pencil i
 
 If you need to replace the image entirely (for example, if you need to take a wider or higher quality photo), click the X in the top right of the photo in the edit drawer, then re-upload a new photo.
 
-<img src="/img/editing-climb-image.png" alt="Editing a climb image on the Crux Climbing App" width="300px" />
+<img src="/img/editing-climb-image.png" alt="Editing a climb image on the Crux Climbing App" class="screenshot" />
 
 ## Unsetting a climb
 

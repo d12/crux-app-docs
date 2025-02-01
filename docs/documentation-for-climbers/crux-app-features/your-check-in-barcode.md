@@ -10,7 +10,7 @@ Crux provides you with a barcode that you can use to sign in at your gym. This b
 
 From the main gym page, click the barcode button in the top left of the screen to access the barcode.
 
-<img src="/img/barcode.png" alt="The gym sign-in barcode on the Crux Climbing App" width="300px" />
+<img src="/img/barcode.png" alt="The gym sign-in barcode on the Crux Climbing App" class="screenshot" />
 
 ## Setting up your barcode
 

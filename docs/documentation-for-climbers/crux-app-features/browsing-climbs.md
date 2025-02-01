@@ -14,7 +14,7 @@ To search for climbs by climb name or by setter name, you can use the search bar
 
 To further refine the climbs you're viewing, you can use the sort and filter menu. This menu is accessible by clicking the "filter" button beside the search bar. After selecting your filter and sort options, click "Search" at the bottom of the menu to apply your changes.
 
-<img src="/img/climb-filter.png" alt="The climb sort and filter menu for the Crux Climbing App" width="300px" />
+<img src="/img/climb-filter.png" alt="The climb sort and filter menu for the Crux Climbing App" class="screenshot" />
 
 ### Sorting
 

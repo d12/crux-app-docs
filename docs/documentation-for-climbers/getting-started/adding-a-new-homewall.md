@@ -20,4 +20,4 @@ By default, only you can set on your home wall. To add setters, refer to the [ad
 4. Specify your grading scheme. This can be V grades, Font grades, or a custom scheme.
 5. Verify the gym info, then click "Add gym" to create the gym. That's it!
 
-<img src="/img/creating-a-homewall-gym.png" alt="Adding a home climbing wall to the Crux app" width="300px" />
+<img src="/img/creating-a-homewall-gym.png" alt="Adding a home climbing wall to the Crux app" class="screenshot" />

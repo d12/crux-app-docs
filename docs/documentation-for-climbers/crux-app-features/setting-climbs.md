@@ -29,7 +29,7 @@ After you've used a photo for a climb once, we'll automatically save it in your 
 
 To select a photo from this "recent library", click on "Or, use a photo from a recent climb" below the image upload buttons. This will open a screen with all the photos that have been recently used at the gym. Select one to open the image editor and start selecting holds.
 
-<img src="/img/uploading-a-recent-photo.png" alt="Selecting a recently used photo for your climb" width="300px" />
+<img src="/img/uploading-a-recent-photo.png" alt="Selecting a recently used photo for your climb" class="screenshot" />
 
 ### Organizing your recently used climb photos
 

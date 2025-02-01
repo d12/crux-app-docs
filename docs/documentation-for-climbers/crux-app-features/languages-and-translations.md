@@ -15,7 +15,7 @@ Crux is currently available in the following languages:
 
 When you first log in to Crux, you'll be asked to select a language. You can change your language preference at any time by going to your profile settings and selecting "Change your language".
 
-<img src="/img/languages.png" alt="Selecting a language to use on the Crux Climbing App." width="300px" />
+<img src="/img/languages.png" alt="Selecting a language to use on the Crux Climbing App." class="screenshot" />
 
 ## Additional languages
 

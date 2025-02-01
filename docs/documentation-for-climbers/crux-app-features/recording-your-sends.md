@@ -10,7 +10,7 @@ Recording your climb sends on Crux allows you to see your progress over time and
 
 To mark a send, head to a climb page and click "Mark as sent" at the bottom. This will open the send dialog, where you can specify the number of attempts, when you sent the climb, a suggested grade, and a rating.
 
-<img src="/img/mark-as-sent-dialog.png" alt="Marking a climb as sent on the Crux Climbing App." width="300px" />
+<img src="/img/mark-as-sent-dialog.png" alt="Marking a climb as sent on the Crux Climbing App." class="screenshot" />
 
 ### Suggested grades
 

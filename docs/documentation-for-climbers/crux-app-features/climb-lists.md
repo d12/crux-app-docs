@@ -22,7 +22,7 @@ Public lists can be viewed by other climbers but can only be added to by the lis
 
 To create a list, navigate to the climb lists page by clicking "Climb lists" on the gym page. Then click the "New list" button in the top right of the page. This will open the new list dialog.
 
-<img src="/img/create-a-climb-list.png" alt="Creating a climb list on the Crux Climbing App" width="300px" />
+<img src="/img/create-a-climb-list.png" alt="Creating a climb list on the Crux Climbing App" class="screenshot" />
 
 ## Adding climbs to a list
 
@@ -30,7 +30,7 @@ To add a climb to a list, navigate to the climb you want to add and click the "c
 
 You can also use this menu to remove climbs from climb lists.
 
-<img src="/img/add-climb-to-list.png" alt="Adding a climb to a climb list on the Crux Climbing App." width="300px" />
+<img src="/img/add-climb-to-list.png" alt="Adding a climb to a climb list on the Crux Climbing App." class="screenshot" />
 
 ## Viewing the climbs in a list
 
@@ -52,4 +52,4 @@ When you select "Add a badge to climbs in this list", all climbs in the list wil
 
 Gyms typically use this to add badges to their benchmark climbs. For example, [Pursuit Climbing](https://www.pursuitclimbing.com/) has a "Pursuit Benchmarks" list that they add a badge to. This makes it easy for climbers to see at a glance which climbs are benchmarks.
 
-<img src="/img/climb-list-badged-climb.png" alt="A climb with a climb list badge on the Crux Climbing App." width="300px" />
+<img src="/img/climb-list-badged-climb.png" alt="A climb with a climb list badge on the Crux Climbing App." class="screenshot" />

@@ -8,13 +8,13 @@ When you first sign up for Crux, you'll be asked to select your gym. This is the
 
 Use the search bar to search for your gym by name.
 
-<img src="/img/select-a-gym.png" alt="Selecting your gym on the Crux app" width="300px" />
+<img src="/img/select-a-gym.png" alt="Selecting your gym on the Crux app" class="screenshot" />
 
 ## Changing your selected gym
 
 If you'd like to change your selected gym, you can do so by clicking the "Change gym" button in the top left of the gym page. This will open the gym selection dialog where you can search for and select a new gym.
 
-<img src="/img/change-gym.png" alt="Changing your gym on the Crux app" width="300px" />
+<img src="/img/change-gym.png" alt="Changing your gym on the Crux app" class="screenshot" />
 
 ## Gym not listed?
 

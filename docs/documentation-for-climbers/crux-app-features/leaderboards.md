@@ -8,4 +8,4 @@ Crux offers friendly gym leaderboards to help climbers track their progress and 
 
 Both leaderboards track the last 30 days of activity on Crux.
 
-<img src="/img/leaderboard.png" alt="Climber leaderboards on the Crux Climbing App." width="300px" />
+<img src="/img/leaderboard.png" alt="Climber leaderboards on the Crux Climbing App." class="screenshot" />
