@@ -10,6 +10,8 @@ Hey there! Welcome to the Crux Climbing App's documentation site 👋
 
 Whether you're a gym climber, home wall climber, or climbing gym owner, you'll find all the information you need to get started with Crux right here.
 
+<img src="/img/intro-image.png" alt="The main gym page on the Crux Climbing App" width="600px" />
+
 ## What is Crux?
 
 At a high level, Crux is a climbing app that lets climbers set custom climbs on climbing walls, both at home and in climbing gyms. It's a great way to track your progress, discover new challenges, and excercise your creativity at the gym.

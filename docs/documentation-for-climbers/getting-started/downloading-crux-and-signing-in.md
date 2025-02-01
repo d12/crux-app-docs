@@ -14,4 +14,4 @@ When you open Crux for the first time, you'll be asked to sign in. You can sign 
 
 After signing in once, you will not need to sign in again unless you log out or delete the app. You can sign out by going to the "Profile" tab, and tapping the settings cog in the top right, then scrolling down to "Log out".
 
-<img src="/img/sign-in-screenshot.png" alt="Signing in to the Crux app" width="300px" />
+<img src="/img/login.png" alt="Signing in to the Crux app" width="300px" />
