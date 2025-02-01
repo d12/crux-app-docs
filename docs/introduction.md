@@ -8,7 +8,7 @@ id: introduction
 
 Hey there! Welcome to the Crux Climbing App's documentation site 👋
 
-Whether you're a gym climber, home wall climber, or climbing gym owner, you'll find all the information you need to get started with Crux right here.
+Whether you're a gym climber, home wall climber, or climbing gym owner, you'll find all the information you need to get started with Crux right here in the documentation. If you're looking the main Crux website, [you can find that here](https://cruxapp.ca).
 
 <img src="/img/intro-image.png" alt="The main gym page on the Crux Climbing App" width="600px" />
 
