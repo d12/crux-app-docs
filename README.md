@@ -2,7 +2,9 @@
 
 This repo is for the open source documentation for the [Crux Climbing App](https://www.cruxapp.ca/). The documentation is built using [Docusaurus ](https://docusaurus.io/).
 
-This project is still under construction. :)
+These docs are still under construction and are not complete yet!
+
+The documentation can be accessed at [https://docs.cruxapp.ca/](https://docs.cruxapp.ca/).
 
 ### Installation
 
