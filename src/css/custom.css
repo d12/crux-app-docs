@@ -32,3 +32,7 @@
 .screenshot {
   width: 300px;
 }
+
+.hidden-in-sidebar {
+  display: none !important;
+}
