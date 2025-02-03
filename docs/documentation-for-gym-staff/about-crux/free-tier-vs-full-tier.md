@@ -22,8 +22,6 @@ Below is a comparison of what is offered in each tier:
 | Create public climb lists | ❌ | ✅ |
 | Compete in gym leaderboards | ❌ | ✅ |
 
-
-
 ### For gyms
 
 | Feature | Free | Full |
@@ -35,4 +33,3 @@ Below is a comparison of what is offered in each tier:
 | Moderate all climber content on Crux | ❌ | ✅ |
 | Priority email support | ❌ | ✅ |
 | Priority feature requests | ❌ | ✅ |
-
