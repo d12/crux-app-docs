@@ -19,4 +19,4 @@ The Crux subscription includes:
 
 ## Pricing
 
-Crux is priced differently in different regions, but is generally less than a single climber's monthly dues. Please reach out to us at [contact@cruxapp.ca](contact@cruxapp.ca) to learn more about pricing.
+Crux is priced differently in different regions, but is generally less than a single climber's monthly dues. Please reach out to us at [contact@cruxapp.ca](mailto:contact@cruxapp.ca) to learn more about pricing.
