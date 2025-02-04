@@ -26,7 +26,7 @@ It's important to have some climbs set before you announce Crux to your climbers
 
 To add some climbs, click the "Climbs" tab on your gym page and then click the blue "Add climb" button in the center. From here, follow the instructions.
 
-If you have a spray wall, and also want to encourage climbs set on your usual climbing walls, we recommend setting at least one spray climb and one regular wall climb.
+If you have a spray wall and also want to encourage climbs set on your usual climbing walls, we recommend setting at least one spray climb and one regular wall climb.
 
 ## Pinning your spray wall photo
 
