@@ -58,7 +58,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/socialcard.jpg',
     navbar: {
-      title: 'Crux App - Documentation',
+      title: 'Crux Docs',
       logo: {
         alt: 'Crux Logo',
         src: 'img/crux.png',
@@ -158,7 +158,7 @@ const config: Config = {
         { field: "h2", boost: 5 },      // Slightly lower for H2
         { field: "h3", boost: 2 },      // Lower for H3
       ],
-    },]],
+    }]],
 };
 
 export default config;
