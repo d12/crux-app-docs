@@ -2,21 +2,32 @@
 sidebar_position: 4
 ---
 
-# Billing and pricing
+# Billing and Pricing
 
-## Billing structure
+---
 
-Crux is billed as a subscription service. We bill month-by-month with no commitment. This means you're welcome to give Crux a go for a period of time and cancel at any time. We bill the gym directly, and there is no fee for your climbers.
+## Billing Structure
 
-## What's included?
+Crux operates on a **flexible, month-to-month subscription** with **no long-term commitment**.
 
-The Crux subscription includes:
-- The full version of Crux for all of your climbers
-- Unlimited climbers, climbs, and resets
-- Unlimited gym staff
-- Priority email support and feature requests
-- Marketing materials like stickers and posters via mail
+- You can **start or cancel at any time**.
+- The **gym is billed directly**—there are **no additional fees for your climbers**.
+
+---
+
+## What's Included?
+
+Your Crux subscription provides:
+- **Full access** to Crux for **all climbers at your gym**.
+- **Unlimited** climbers, climbs, and resets.
+- **Unlimited** gym staff accounts.
+- **Priority email support** and **priority feature requests**.
+- **Marketing materials** (stickers, posters, and more) shipped to your gym.
+
+---
 
 ## Pricing
 
-Crux is priced differently in different regions, but is generally less than a single climber's monthly dues. Please reach out to us at [contact@cruxapp.ca](mailto:contact@cruxapp.ca) to learn more about pricing.
+Crux pricing varies by region but is generally **less than the cost of a single climber’s monthly membership**.
+
+For specific pricing details, please **contact us** at [contact@cruxapp.ca](mailto:contact@cruxapp.ca).

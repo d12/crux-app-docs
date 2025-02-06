@@ -2,43 +2,72 @@
 sidebar_position: 9
 ---
 
-# Profile, stats, and climb sessions
+# Profile, Stats, and Climb Sessions
 
-As you use Crux over time, your profile will become a home for useful information about your climbing habits and progress. This page will help you understand what you can find in your profile. To access your profile, click on the profile icon in the bottom right of the screen.
+As you use Crux, your **profile** becomes a hub for tracking your **climbing progress, stats, and session history**.
 
-## Privacy
+To access your profile, **tap the profile icon** in the bottom right of the screen.
 
-Your climber profile is public by default, but it can be optionally hidden from other climbers. To hide your profile, click the settings button in the top right of your profile, then click "Privacy settings". Here you can toggle your profile to be hidden or visible.
+---
 
-## Stats tab
+## Privacy Settings
 
-The main tab of the profile is the stats page. Here, there are three main graphs.
+By default, your **climber profile is public**, meaning other users can see your stats and activity.
 
-- The first graph "All-time sent climbs" shows the number of climbs you've sent for each grade, as well as the ratio of flashes to non-flashes. This graph is a fun representation of the grades you tend to climb.
-- The second graph "Climbing styles" shows the styles of climbs that you tend to send. This graph is useful for understanding your strengths and weaknesses.
-- The last graphs "Monthly trends by grade" shows how many of each grade you've sent in the last month, and compares this to the month before. This graph is helpful for understanding if you're progressing.
+To **hide your profile**:
+1. Tap the **settings button** (top-right of your profile page).
+2. Select **"Privacy settings."**
+3. Toggle your profile to **hidden** or **visible**.
 
-<img src="/img/stats.png" alt="Stats and graphs on a users profile page on the Crux Climbing App" class="screenshot" />
+---
 
-## Sessions tab
+## Stats Tab
 
-The second tab is the climb sessions tab. Here, you can deep-dive into each climbing session and see what you worked on during each session. You can also see your trends month-by-month on the calendar. Each colored square represents a session, and the color represents the highest grade you sent during that session.
+The **Stats** tab provides visual insights into your climbing progress with three main graphs:
+
+- **All-Time Sent Climbs** – Displays the **number of climbs you've sent per grade** and your **flash vs. non-flash ratio**.
+- **Climbing Styles** – Shows the **styles of climbs you tend to send**, helping you understand your strengths and weaknesses.
+- **Monthly Trends by Grade** – Tracks how many climbs of each grade you've sent **this month vs. last month**, helping you measure progress.
+
+<img src="/img/stats.png" alt="Stats and graphs on a user's profile page on the Crux Climbing App" class="screenshot" />
+
+---
+
+## Sessions Tab
+
+The **Sessions** tab allows you to explore individual **climbing sessions** and track **your monthly trends** on a calendar.
+
+### Climbing Calendar
+- Each **colored square** represents a **climbing session**.
+- The **color** represents the **highest grade you sent** in that session.
+- Tap a **date** to view the **session details**.
 
 <img src="/img/sessions-calendar.png" alt="The sessions calendar on the Crux Climbing App" class="screenshot" />
 
-If you click a date on the calendar, it'll bring you to the session view where you can see:
-- The climbs you sent that day
-- The climbs you attempted that day
-- Any private session notes that you recorded.
+### Session Details
+When you open a session, you'll see:
+- **Climbs you sent** that day.
+- **Climbs you attempted** that day.
+- **Private session notes** (if recorded).
 
-Session notes can be logged at any time by going to a session and clicking the "+" beside the "My private notes" header.
+You can log **session notes** at any time:
+1. Open a session.
+2. Tap **"+"** beside **"My Private Notes"**.
+3. Add your notes.
 
 <img src="/img/session.png" alt="The session view on the Crux Climbing App showing private notes, sent climbs, and attempted climbs." class="screenshot" />
 
-## Set climbs tab
+---
 
-The set climbs tab shows an overview of all the climbs you've set while using Crux.
+## Set Climbs Tab
 
-## Gallery tab
+The **Set Climbs** tab provides an overview of all the climbs you've **created** while using Crux.
 
-The gallery tab shows all of the photos and videos that you've uploaded to Crux. Items with a white "lock" icon are private and can only be seen by you. These are media items that were uploaded to private comments.
+---
+
+## Gallery Tab
+
+The **Gallery** tab displays all the **photos and videos** you've uploaded to Crux.
+
+- Items with a **white lock icon 🔒** are **private** and can only be seen by you.
+- Private items include **media uploaded to private comments**.

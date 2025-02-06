@@ -4,30 +4,38 @@ slug: /
 id: introduction
 ---
 
-# Introduction
+# Welcome to Crux Docs 👋
 
-Hey there! Welcome to the Crux Climbing App's documentation site 👋
+Hey there! Welcome to the official documentation for the **Crux Climbing App**.
 
-Whether you're a gym climber, home wall climber, or climbing gym owner, you'll find all the information you need to get started with Crux right here in the documentation. If you're looking the main Crux website, [you can find that here](https://cruxapp.ca).
+Whether you're a **gym climber, home wall climber, or a climbing gym owner**, this is your go-to resource for everything Crux. You'll find step-by-step guides, troubleshooting tips, and all the details you need to get the most out of the app.
+
+Looking for the main Crux website? [Find it here.](https://cruxapp.ca)
 
 <img src="/img/intro-image.png" alt="The main gym page on the Crux Climbing App" width="450px" />
 
 ## What is Crux?
 
-At a high level, Crux is a climbing app that lets climbers set custom climbs on climbing walls, both at home and in climbing gyms. It's a great way to track your progress, discover new challenges, and excercise your creativity at the gym.
+Crux is a **climbing app** that lets climbers create, share, and track custom climbs on **any climbing wall**—both at home and in climbing gyms. It's designed to help you challenge yourself, improve your skills, and get creative with route setting.
 
-The "secret sauce" of Crux is our ability to scan images instantly for holds. This means you can take a photo of a wall, tap on the holds, and share the climb instantly, without any forms, payment, or waiting. At a climbing gym, this means you can set climbs _anywhere_ in the gym, a feature that's unique to Crux.
+### Why Crux?
 
-## Who's using Crux?
+The **magic** behind Crux is our **instant hold recognition technology**. Just snap a photo of a wall, tap on the holds, and your climb is ready to share—no complicated forms, no waiting, and no hidden costs. At climbing gyms, this means you can **set routes anywhere** in the gym—a feature **unique to Crux**.
 
-Crux has been used by over 30,000 climbers from over 50 countries. We've partnered with more than 100 commercial climbing gyms and are used at thousands of homewalls around the world. Over 100,000 climbs have been set with Crux, and we're just getting started!
+## Who's Using Crux?
 
-## Navigating the documentation
+Crux is trusted by:
+- **30,000+ climbers** from over 50 countries
+- **100+ commercial climbing gyms**
+- **Thousands of homewall owners**
+- **Over 100,000 climbs set** (and counting!)
 
-There are three ways to navigate the documentation.
+## How to Use This Documentation
 
-1. You can use the search bar in the top right to search for specific topics.
-2. You can use the sidebar on the left to navigate through the documentation.
-3. You can use the buttons at the bottom of each page to navigate through the documentation in order.
+There are three ways to navigate the docs:
 
-Happy sending!
+1. **Search bar (top right)** – Quickly find what you need.
+2. **Sidebar (left panel)** – Browse by category.
+3. **Navigation buttons (bottom of each page)** – Move through the docs step-by-step.
+
+Let’s get started—**happy sending!** 🚀

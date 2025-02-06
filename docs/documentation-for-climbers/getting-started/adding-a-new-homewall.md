@@ -2,22 +2,22 @@
 sidebar_position: 4
 ---
 
-# Adding a new homewall
+# Adding a New Homewall
 
-## How much does it cost to add a homewall?
+## How Much Does It Cost?
 
-Homewalls get access to all features on Crux for free. This includes unlimited walls, resets, and climbs.
+Adding a homewall to Crux is completely free! Homewalls get full access to all features, including unlimited walls, resets, and climbs.
 
-## Who can set on my homewall?
+## Who Can Set on My Homewall?
 
-By default, only you can set on your home wall. To add setters, refer to the [adding and removing setters documentation](/docs/documentation-for-climbers/homewall-specific-features/adding-and-removing-setters.md).
+By default, only you can set routes on your homewall. If you’d like to allow others to set climbs, check out the [Adding and Removing Setters guide](/docs/documentation-for-climbers/homewall-specific-features/adding-and-removing-setters.md).
 
-## How do I add my homewall?
+## How to Add Your Homewall
 
-1. Begin the gym creation process by clicking "Add a commercial gym or home wall" on the gym selection page. Additional instructions can be found [here](/docs/documentation-for-climbers/getting-started/selecting-your-gym.md).
-2. On the first page, enter the gym's name and location. Select "Home climbing wall" for the type.
-3. Optionally upload a banner image. This is purely decorative and is not used to verify the gym or set climbs.
-4. Specify your grading scheme. This can be V grades, Font grades, or a custom scheme.
-5. Verify the gym info, then click "Add gym" to create the gym. That's it!
+1. **Start the process** – Tap **"Add a commercial gym or home wall"** on the gym selection page. (See [Selecting Your Gym](/docs/documentation-for-climbers/getting-started/selecting-your-gym.md) for details.)
+2. **Enter homewall details** – Provide your homewall’s name and location. Select **"Home climbing wall"** as the type.
+3. **(Optional) Add a banner image** – This is decorative only and won’t affect route setting.
+4. **Choose a grading system** – Select V grades, Font grades, or a custom grading scheme.
+5. **Review and confirm** – Double-check the details, then tap **"Add gym"** to create your homewall. That’s it!
 
 <img src="/img/creating-a-homewall-gym.png" alt="Adding a home climbing wall to the Crux app" class="screenshot" />

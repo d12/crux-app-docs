@@ -4,8 +4,13 @@ sidebar_position: 7
 
 # Leaderboards
 
-Crux offers friendly gym leaderboards to help climbers track their progress and compete with friends. There is a climber leaderboard which shows the climbers with the most sends, and a setter leaderboard which shows the climbers with the most routes set.
+Crux features **friendly gym leaderboards** to help climbers track progress and compete with friends. There are two types of leaderboards:
 
-Both leaderboards track the last 30 days of activity on Crux.
+- **Climber Leaderboard** – Ranks climbers by the number of climbs they’ve sent.
+- **Setter Leaderboard** – Ranks climbers by the number of climbs they’ve set.
+
+:::info
+Leaderboards track the last **30 days** of activity.
+:::
 
 <img src="/img/leaderboard.png" alt="Climber leaderboards on the Crux Climbing App." class="screenshot" />

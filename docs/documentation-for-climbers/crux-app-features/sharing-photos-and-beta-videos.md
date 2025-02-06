@@ -2,25 +2,38 @@
 sidebar_position: 4
 ---
 
-# Sharing photos and beta videos
+# Sharing Photos and Beta Videos
 
-Crux allows climbers to share photos and beta videos with the community. This feature is a great way to share your climbing achievements and get feedback from other climbers! Climbers also often use it to ask for help when they're stuck on a climb.
+Crux allows climbers to **share photos and beta videos** with the community. Whether you’re celebrating a send, looking for beta, or helping others figure out a climb, sharing visuals makes the experience more interactive!
 
-## How to share photos and beta videos
+---
 
-1. Open the climb you want to share a photo or beta video for
-2. Scroll down to the comments section
-3. Click the blue "New comment" button in the bottom right.
-4. Fill out the comment form.
+## How to Share Photos and Beta Videos
+
+To share a photo or beta video:
+1. Open the **climb page** for the climb you want to post about.
+2. Scroll down to the **comments section**.
+3. Tap the **blue "New comment"** button in the bottom right.
+4. Fill out the comment form and attach your photo or video.
 
 <img src="/img/posting-comments.png" alt="Posting a comment on a climb on the Crux Climbing App." class="screenshot" />
 
-## Discovering photos and beta videos
+---
 
-Photos and beta videos are displayed in the comments section of each climb. You can scroll through the comments to see all the photos and videos that have been shared for that climb.
+## Discovering Photos and Beta Videos
 
-Photos and videos are also surfaced in the [activity feed](/docs/documentation-for-climbers/crux-app-features/activity-feed.md) for the gym. This makes it easy to scroll through all the latest content that has been shared at your gym!
+📍 **On Climb Pages**
+Photos and beta videos are displayed in the **comments section** of each climb. Scroll through the comments to see all shared visuals for that climb.
 
-## Managing your comments
+📍 **In the Gym Activity Feed**
+Photos and videos also appear in the gym’s [**Activity Feed**](/docs/documentation-for-climbers/crux-app-features/activity-feed.md), making it easy to browse **recently shared content** from your gym.
 
-You can delete your comments at any time. To do this, click the "..." in the top right of your comment and select "Delete".
+---
+
+## Managing Your Comments
+
+You can **delete** your comments at any time:
+1. Tap the **"..."** in the top-right corner of your comment.
+2. Select **"Delete"** to remove it.
+
+---

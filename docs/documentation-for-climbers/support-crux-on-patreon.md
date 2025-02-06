@@ -4,29 +4,44 @@ sidebar_position: 5
 
 # Support Crux on Patreon
 
-Did you know that Crux is a small, independent company? We built Crux because it's something we're passionate about, and we offer it for free to homewalls and individual climbers in an effort to make our software as accessible as possible.
+Crux is a **small, independent company** built by climbers, for climbers. We’re passionate about making Crux **accessible and free** for homewalls and individual climbers.
 
-That being said, we still need to pay the bills to keep Crux online. For those costs, we lean on our commercial gym partners and our Patrons on Patreon.
+However, keeping Crux online requires resources. To cover these costs, we rely on **our commercial gym partners** and the **support of our Patrons on Patreon**.
 
-## What do we spend money on?
+---
 
-In no particular order, here are some of the things we spend money on to operate and develop Crux:
+## What Do We Spend Money On?
 
-- **Server costs**: We use Heroku and Modal to host our servers, inference instances, and databases. These each have monthly recurring costs.
-- **Storage costs**: We store all images and videos uploaded to Crux with Cloudflare. This has a monthly cost that gets more expensive as our user base grows and we store more data.
-- **Hardware**: Some of our compute needs are served by our own physical hardware which is purchased and maintained by Crux.
-- **Marketing costs**: We spend money to promote Crux to new users and climbing gyms. This includes things like advertisements, creator partnerships, marketing tools, and more.
-- **Graphic design**: We hire a designer contractor to help with our graphic design needs, including posters, stickers, social media projects, and other graphical needs.
-- **Marketing hardware**: We print and mail stickers, posters, flyers, and more to help get the word out about Crux.
-- **Professional services**: Crux is a business that requires legal services, accounting, and more.
+Running and improving Crux comes with ongoing costs, including:
 
-## Why support Crux?
+- **Server Costs** – Hosting our servers, inference instances, and databases on **Heroku and Modal** incurs recurring monthly expenses.
+- **Storage Costs** – **Cloudflare** stores all images and videos uploaded to Crux. As our user base grows, storage costs increase.
+- **Hardware** – Some of our computing power comes from **physical hardware** that we purchase and maintain.
+- **Marketing** – We invest in **advertising, creator partnerships, and marketing tools** to reach more climbers and gyms.
+- **Graphic Design** – We work with **design contractors** for posters, stickers, social media assets, and branding needs.
+- **Printed Materials** – We print and distribute **stickers, posters, flyers, and more** to spread the word about Crux.
+- **Professional Services** – Running a business means paying for **legal services, accounting, and operational costs**.
 
-Your support helps us keep Crux online, free, and accessible for all. Every bit counts, and we're grateful for every Patron who supports us.
+---
 
-Support also helps us continue to develop new features and improve the app. We have a lot of exciting things in the works, and your support helps us bring those to life!
+## Why Support Crux?
 
-## How do I support Crux on Patreon?
+Supporting Crux on Patreon helps us:
+- **Keep Crux online, free, and accessible** for climbers everywhere.
+- **Develop new features and improvements** to enhance your experience.
+- **Continue growing** and bringing Crux to more climbing gyms and homewalls.
 
-[Head to our Patreon page](https://www.patreon.com/crux_climbing_app) to learn more about our different tiers of membership. We offer a variety of benefits to our Patrons, including early access to new features, dark mode, stickers, and more.
+Every contribution makes a difference, and we’re incredibly grateful for every Patron who supports us. 🙌
 
+---
+
+## How to Support Crux on Patreon
+
+[Visit our Patreon page](https://www.patreon.com/crux_climbing_app) to explore our **membership tiers**.
+
+Patrons get access to **exclusive benefits**, including:
+- **Early access to new features**
+- **Dark mode**
+- **Stickers and other perks**
+
+Thank you for supporting Crux! 💙

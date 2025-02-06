@@ -4,74 +4,97 @@ toc_min_heading_level: 2
 toc_max_heading_level: 5
 ---
 
-# Getting your gym started with Crux
+# Getting Your Gym Started with Crux
 
-Welcome to Crux! We're excited to have you on board. This guide will help you get started with Crux and make the most of the platform.
+Welcome to Crux! We're excited to have you on board. This guide will help you **get started** and make the most of the platform.
 
-## Setting up your gym
+---
 
-#### Setting up payment
+## Setting Up Your Gym
 
-The first step is to set up your payment method. Your contact at Crux will help you add your payment method.
+#### Setting Up Payment
 
-#### Setting up your gym
+Your contact at Crux will assist you with adding your **payment method**.
 
-This step is handled by the Crux team. If you haven't already, be sure to fill out the [onboarding form](https://docs.google.com/forms/d/e/1FAIpQLSfGkpQTSZSxq_EkcjB22kqrXb_3uxENddPGh3s8woO9ytM61g/viewform?usp=sf_link) so the team can set up your gym how you'd like it.
+#### Setting Up Your Gym
 
-#### Install the Crux app
+This step is handled by the **Crux team**. If you haven't already, please fill out the [onboarding form](https://docs.google.com/forms/d/e/1FAIpQLSfGkpQTSZSxq_EkcjB22kqrXb_3uxENddPGh3s8woO9ytM61g/viewform?usp=sf_link) so we can set up your gym according to your preferences.
 
-Please follow the instructions [here](/docs/documentation-for-climbers/getting-started/downloading-crux-and-signing-in.md) to install Crux on your phone.
+#### Installing the Crux App
 
-#### Adding your staff
+Follow the instructions [here](/docs/documentation-for-climbers/getting-started/downloading-crux-and-signing-in.md) to install Crux on your phone. **Let Nat know when you've installed the app and logged in so he can add you as an admin**.
+
+#### Adding Your Staff
 
 :::info
-Note that you can only add staff who have downloaded and signed in to Crux. Ensure your staff download the app before trying to add them to your gym
+Staff members **must download and sign in to Crux** before you can add them to your gym.
 :::
 
-Once your gym is created and we've added a first admin, you can start adding your staff. To do this, click the settings cog at the top of your gym page and then click "Staff members". From here, you can add staff members by entering their name.
+Once your gym is set up and the first admin is added, you can start **adding staff**:
+1. Open your **gym page** and tap the **settings cog**.
+2. Select **"Staff Members"**.
+3. Enter a **staff member’s name** to add them.
 
-Staff will have access to moderation tools, and if you enable the admin permission, they'll also have access to the gym settings.
+Staff have access to **moderation tools**, and if you enable **admin permissions**, they can also **manage gym settings**.
 
 <img src="/img/manage-your-staff.png" alt="Managing your gym staff on the Crux Climbing App" class="screenshot" />
 
-#### Posting some first climbs
+#### Posting Initial Climbs
 
-It's important to have some climbs set before you announce Crux to your climbers. This helps climbers understand the purpose of Crux when they install the app.
+Before announcing Crux to your climbers, it’s helpful to have **some climbs set**. This helps new users **understand Crux’s purpose** when they first install the app.
 
-To add some climbs, click the "Climbs" tab on your gym page and then click the blue "Add climb" button in the center. From here, follow the instructions.
+To add climbs:
+1. Open your **gym page** and tap the **"Climbs"** tab.
+2. Tap the **blue "Add Climb"** button.
+3. Follow the setup instructions.
 
-If you have a spray wall and also want to encourage climbs set on your usual climbing walls, we recommend setting at least one spray climb and one regular wall climb.
+If you have a **spray wall**, we recommend setting at least:
+- **One spray climb**
+- **One regular wall climb**
 
-#### Pinning your spray wall photo
+#### Pinning a Spray Wall Photo
 
-Climbers have the option to select an existing wall image when setting a climb instead of taking a photo every time. To make setting as easy as possible, we recommend pinning a photo of your spray wall to the top of the recent photos section.
+Climbers can **select an existing wall image** when setting a climb instead of taking a new photo. To simplify setting, we recommend **pinning a photo of your spray wall**.
 
-Ensure you have already set a climb on your spray first, otherwise you won't have any photos in your recent photos section.
+Before pinning a photo, make sure you’ve **set at least one climb on your spray wall** so there’s an image available in your recent photos.
 
-To pin a photo,
+To pin a photo:
+1. Open the **"Climbs"** tab.
+2. Tap **"Add Climb"** in the bottom right.
+3. Select **"Or, use a photo from a recent climb."**
+4. Tap **"..."** in the top right of the photo you want to pin and select **"Pin Photo"**.
 
-1. Click the "Climbs" tab on your gym page
-2. Click the blue "Add climb" button in the bottom right.
-3. Click "Or, use a photo from a recent climb"
-4. Click the "..." in the top right of the photo you want to pin, and select "Pin photo"
+---
 
-## Announcing Crux to your Climbers
+## Announcing Crux to Your Climbers
 
-#### Choose a launch date
+#### Choosing a Launch Date
 
-The specific date isn't important, but we recommend choosing a single date to put up posters and post on socials. This helps build excitement and get climbers onboard.
+The **exact date** isn’t critical, but we recommend **selecting a single launch date** to:
+- Put up **posters**
+- Announce on **social media**
 
-#### Prepare socials
+A single launch date **builds excitement** and increases engagement.
 
-We highly recommend posting via whatever channels you have available. This usually includes Instagram, Facebook, and sometimes an email newsletter. We recommend using your usual design language for your posts, and we have a directory of visual assets (including logos) you can use here: [Crux Creative Assets](https://drive.google.com/drive/u/0/folders/1Opfo40ceL-2rQ98L8CWc5F4BQouUiLFu)
+#### Preparing Social Media Announcements
 
-Some examples of previous posts by our partners:
-- Altitude Gym Kanata: https://www.instagram.com/p/DE2_dxIMJ9l/
-- Pursuit Climbing: https://www.instagram.com/p/DAG2-nou9J5/
+We recommend **posting on all available channels**, such as:
+- **Instagram**
+- **Facebook**
+- **Email newsletters**
 
-#### Launch!
+Use your gym’s **usual design language** for branding. We also provide **Crux visual assets** (including logos) here:
+[Crux Creative Assets](https://drive.google.com/drive/u/0/folders/1Opfo40ceL-2rQ98L8CWc5F4BQouUiLFu)
 
-On the morning of your launch date:
-- Put up posters. At least one should be near the front desk (it encourages climbers to ask front desk staff about Crux) and one should be near the spray wall if you have one.
-- Give away stickers at the front desk, if they've arrived.
-- Post on your socials
+##### Examples of previous Crux launch posts:
+- [Altitude Gym Kanata](https://www.instagram.com/p/DE2_dxIMJ9l/)
+- [Pursuit Climbing](https://www.instagram.com/p/DAG2-nou9J5/)
+
+#### Launch Day Checklist
+
+On the **morning of your launch date**, make sure to:
+- **Put up posters**
+  - At least one **near the front desk** (so climbers can ask about Crux).
+  - One **near the spray wall**, if applicable.
+- **Give away stickers** at the front desk (if they’ve arrived).
+- **Post on social media** to announce the launch.

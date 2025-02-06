@@ -2,10 +2,18 @@
 sidebar_position: 4
 ---
 
-# Feature requests
+# Feature Requests
 
-Crux is actively developed, and our commercial gym partners have first priority when it comes to feature requests. This means that if you find Crux is missing something important, we may be able to have it added to the app within a week or two.
+Crux is **actively developed**, and we prioritize feature requests from our **commercial gym partners**.
 
-## How to request a feature
+If Crux is missing something important, we may be able to **add it within a week or two**.
 
-Please contact Nat at [nat@cruxapp.ca](mailto:nat@cruxapp.ca) with your feature request. If you have any specific details or examples, please include them in your email.
+---
+
+## How to Request a Feature
+
+To submit a feature request:
+- Email **Nat** at [nat@cruxapp.ca](mailto:nat@cruxapp.ca).
+- Include **specific details or examples** to help us understand your request.
+
+We appreciate your feedback and look forward to improving Crux for your gym!

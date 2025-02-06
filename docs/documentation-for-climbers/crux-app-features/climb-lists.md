@@ -2,54 +2,86 @@
 sidebar_position: 6
 ---
 
-# Climb lists
+# Climb Lists
 
-Climb lists allow you to group climbs together for organization. For example, you could create lists for climbs you want to try, climbs you're assigning to some students, or benchmarks for the gym.
+Climb lists allow you to **group climbs together** for organization. You can use them to:
+- Track **climbs you want to try**
+- Assign climbs to **students or training groups**
+- Create **benchmark lists** for your gym
 
-## List privacy
+---
 
-Climb lists can either be public or private.
+## List Privacy
 
-### Private lists
+Climb lists can be **private** or **public**.
 
-Private lists can not be seen by other climbers. By default, you'll start out with two private lists, **My likes** and **My projects**. You can create more private lists as needed.
+### Private Lists
 
-### Public lists
+- **Only you can see private lists.**
+- By default, you start with two private lists:
+  - **My Likes** – Climbs you've liked.
+  - **My Projects** – Climbs you're working on.
+- You can create additional private lists as needed.
 
-Public lists can be viewed by other climbers but can only be added to by the list's creator. This is useful for sharing lists of climbs with your friends or gym members. For example, "Dom's Favorites" or "Climbs for the February Comp".
+### Public Lists
 
-## Creating a list
+- **Visible to other climbers**, but only the list creator can add to them.
+- Useful for sharing climbs with friends or gym members.
+- Examples:
+  - **"Dom's Favorites"** – A personal list of favorite climbs.
+  - **"Climbs for the February Comp"** – A competition set list.
 
-To create a list, navigate to the climb lists page by clicking "Climb lists" on the gym page. Then click the "New list" button in the top right of the page. This will open the new list dialog.
+---
+
+## Creating a Climb List
+
+1. Go to the **Climb Lists** page by tapping **"Climb Lists"** on the gym page.
+2. Tap **"New List"** (top-right of the page).
+3. Fill in the details and create your list.
 
 <img src="/img/create-a-climb-list.png" alt="Creating a climb list on the Crux Climbing App" class="screenshot" />
 
-## Adding climbs to a list
+---
 
-To add a climb to a list, navigate to the climb you want to add and click the "climb lists" button in the bottom right of the climb image. From there, you can add the climb to any lists that you have access to. Note that you cannot add to public lists unless you are the list's creator or gym staff.
+## Adding Climbs to a List
 
-You can also use this menu to remove climbs from climb lists.
+To add a climb to a list:
+1. Open the **climb page** for the climb you want to add.
+2. Tap the **"Climb Lists"** button in the bottom right of the climb image.
+3. Select the list you want to add the climb to.
+
+📌 **Note:** You **cannot** add to public lists unless you are the list creator or gym staff.
+
+To **remove a climb** from a list, follow the same steps and deselect the list.
 
 <img src="/img/add-climb-to-list.png" alt="Adding a climb to a climb list on the Crux Climbing App." class="screenshot" />
 
-## Viewing the climbs in a list
+---
 
-To see the climbs in a list, head to the climb lists page and click on the "Show" button beside the list you'd like to view. This will bring you to a climb directory of all the climbs in the specific list.
+## Viewing Climbs in a List
 
-From this page, you'll be able to search, sort, and filter climbs like you can with the usual climbs directory.
+To view climbs in a specific list:
+1. Go to the **Climb Lists** page.
+2. Tap **"Show"** next to the list you want to view.
 
-## Features for commercial gym staff
+This will open a **climb directory** showing all climbs in that list. You can **search, sort, and filter** climbs just like in the main climb directory.
 
-When creating **public** climb lists at a commercial climbing gym, gym staff have a couple of extra features:
+---
 
-### List is owned by the gym
+## Features for Commercial Gym Staff
 
-When you select "This list is owned by the gym", the list will be labeled as being created by your (your gym name) instead of (your name). For example, instead of saying "Owned by Jake Smith", it would say "Owned by Brimstone Climbing Gym". This should be used for official gym lists, such as "Climbs for the February Comp".
+When creating **public climb lists** at a commercial gym, gym staff have additional options:
 
-### Add a badge to climbs in this list
+### List Owned by the Gym
 
-When you select "Add a badge to climbs in this list", all climbs in the list will have a badge added to them in the climb directory. This badge will be a small version of the climb list icon.
+- Selecting **"This list is owned by the gym"** changes the list ownership from your personal account to the gym’s name.
+- Example: Instead of saying **"Owned by Jake Smith,"** it would say **"Owned by Brimstone Climbing Gym."**
+- Use this for **official gym lists**, like **"Climbs for the February Comp."**
 
-Gyms typically use this to add badges to their benchmark climbs. For example, [Pursuit Climbing](https://www.pursuitclimbing.com/) has a "Pursuit Benchmarks" list that they add a badge to. This makes it easy for climbers to see at a glance which climbs are benchmarks.
+### Adding a Badge to Climbs in a List
+
+- Selecting **"Add a badge to climbs in this list"** adds a **small list icon** next to each climb in the directory.
+- This makes it easy to **spot climbs in a special category**, like gym benchmarks.
+- Example: [Pursuit Climbing](https://www.pursuitclimbing.com/) uses this feature for their **"Pursuit Benchmarks"** list.
 
 <img src="/img/climb-list-badged-climb.png" alt="A climb with a climb list badge on the Crux Climbing App." class="screenshot" />

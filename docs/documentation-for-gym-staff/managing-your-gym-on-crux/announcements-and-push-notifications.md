@@ -2,26 +2,44 @@
 sidebar_position: 5
 ---
 
-# Announcements and push notifications
+# Announcements and Push Notifications
 
-Crux is the only climbing app that lets you send completely free-form push notifications directly to your climbers. Since email often gets lost in spam and social media can be unreliable, this feature can make Crux one of your most powerful tools for communicating with your climbers.
+Crux is the **only** climbing app that lets you send **free-form push notifications** directly to your climbers.
 
-## Who we send push notifications to
+Since **emails often end up in spam** and **social media can be unreliable**, push notifications provide a **direct and effective way** to communicate with your community.
 
-When you make an announcement, we'll send a push notification to all climbers at your gym who have installed Crux and have allowed push notifications. If you're curious how many climbers exactly that is, or how many climbers are opening your notifications, please [email us](mailto:contact@cruxapp.ca) and we can help out.
+---
 
-## Who can send announcements
+## Who Receives Push Notifications?
 
-Only gym staff listed in the [staff members section](/docs/documentation-for-gym-staff/managing-your-gym-on-crux/gym-settings-and-staff-members.md) of Crux can send announcements to your climbers.
+When you post an announcement, **all climbers at your gym** who have:
+- **Installed Crux**
+- **Enabled push notifications**
 
-## How to send an announcement
+…will receive a **push notification**.
 
-Announcements are posted using the Activity Feed just below your main gym page in the Crux app. To post an announcement, follow these steps:
+Want to know how many climbers are receiving or opening your notifications?
+[Email us](mailto:contact@cruxapp.ca), and we’ll provide insights!
 
-1. Open the Crux app and navigate to your gym's main page.
-2. Click the arrow beside the blue "Post" button and select "Post as (your gym name)". This is required to send push notifications.
-3. Write your announcement in the text box and click "Post". You can optionally include a photo.
+---
 
-That's it!
+## Who Can Send Announcements?
+
+Only **gym staff** listed in the [Staff Members section](/docs/documentation-for-gym-staff/managing-your-gym-on-crux/gym-settings-and-staff-members.md) can send announcements to climbers.
+
+---
+
+## How to Send an Announcement
+
+Announcements are posted in the **Activity Feed** below your gym's main page in the Crux app.
+
+### Steps to Post an Announcement:
+1. Open the **Crux app** and navigate to your **gym’s main page**.
+2. Tap the **arrow next to the blue "Post" button** and select
+   **"Post as (Your Gym Name)."** _(This is required to send push notifications.)_
+3. Write your **announcement** in the text box. _(Optional: Add a photo.)_
+4. Tap **"Post."**
+
+That’s it!
 
 <img src="/img/gym-announcements.png" alt="Making a gym announcement and sending push notifications to climbers using the Crux Climbing App" class="screenshot" />

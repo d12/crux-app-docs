@@ -2,38 +2,47 @@
 sidebar_position: 5
 ---
 
-# Moderation and administration tools
+# Moderation and Administration Tools
 
-Gym staff have access to a number of tools to help manage their gym and content on Crux. This includes the ability to moderate comments, delete inappropriate content, and more.
+Gym staff have access to **moderation tools** to help manage their gym’s content on Crux. These tools allow staff to:
+- Moderate **comments**
+- Delete **inappropriate content**
+- Manage **climbs, lists, and users**
 
-## Who can moderate content:
+---
 
-Only gym staff listed in the [staff members section](/docs/documentation-for-gym-staff/managing-your-gym-on-crux/gym-settings-and-staff-members.md) of Crux can moderate content on your gym's page.
+## Who Can Moderate Content?
 
-## Moderation abilities
+Only **gym staff** listed in the
+[**Staff Members section**](/docs/documentation-for-gym-staff/managing-your-gym-on-crux/gym-settings-and-staff-members.md)
+can moderate content on your gym’s page.
 
-Most moderation abilities are done by clicking a "..." button on the content you want to moderate. This will open a menu with moderation options.
+---
+
+## How Moderation Works
+
+Most moderation actions can be performed by tapping the **"..." button** on the content you want to manage.
+This will open a **menu with moderation options**.
+
+---
+
+## Moderation Abilities
 
 ### Climbs
-
 Gym staff can:
+- **Edit climbs** (image, name, description, and grade).
+- **Delete climbs**.
+- **Add or remove climbs** from all
+  [**public gym lists**](/docs/documentation-for-climbers/crux-app-features/climb-lists.md).
+- **Edit or delete public climb lists**.
 
-- Edit climbs, including the image, name, description, and grade.
-- Delete climbs.
-- Add or remove climbs from all [public gym lists](/docs/documentation-for-climbers/crux-app-features/climb-lists.md).
-- Edit or delete public climb lists.
-
-### Comments and videos
-
+### Comments and Videos
 Gym staff can:
-
-- Delete comments and videos on climbs.
-- Delete comments and videos on the gym's activity feed.
-- Pin or unpin content on the gym's activity feed.
+- **Delete comments and videos** on climbs.
+- **Delete comments and videos** on the gym’s activity feed.
+- **Pin or unpin content** in the gym’s activity feed.
 
 ### Climbers
-
 Gym staff can:
-
-- Rename users
-- Remove climbers from their gym
+- **Rename users**.
+- **Remove climbers** from their gym.

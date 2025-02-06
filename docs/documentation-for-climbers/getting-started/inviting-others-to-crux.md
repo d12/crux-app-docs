@@ -2,14 +2,20 @@
 sidebar_position: 5
 ---
 
-# Inviting others to Crux
+# Inviting Others to Crux
 
-If you climb with others, you'll get a lot more out of Crux by inviting them to join you on Crux. Here's how you can do that.
+Climbing is better with friends! Inviting others to join you on Crux makes the experience more fun and collaborative. Here’s how to get them started.
 
-## Commercial gyms
+## Commercial Gyms
 
-If you're a member of a commercial gym, all you need to do is have your friends download the app and search for your gym. Commercial gyms are open-by-default and don't require special permissions to join or set climbs. For more info, see the [downloading crux documentation](/docs/documentation-for-climbers/getting-started/downloading-crux-and-signing-in.md#downloading-crux)
+If you climb at a commercial gym, inviting friends is easy—just have them **download the Crux app** and search for your gym.
+
+Commercial gyms on Crux are **open by default**, meaning anyone can join, view climbs, and set routes without special permissions.
+
+For more details, check out the guide on [Downloading Crux and Signing In](/docs/documentation-for-climbers/getting-started/downloading-crux-and-signing-in.md#downloading-crux).
 
 ## Homewalls
 
-Anyone can join and view your homewall, but only a specific set of climbers can set climbs. To configure your homewall setters, see the [adding and removing setters documentation](/docs/documentation-for-climbers/homewall-specific-features/adding-and-removing-setters.md).
+Anyone can join and view your homewall, but only specific climbers can **set climbs**.
+
+To manage who can set on your homewall, check out the [Adding and Removing Setters guide](/docs/documentation-for-climbers/homewall-specific-features/adding-and-removing-setters.md).

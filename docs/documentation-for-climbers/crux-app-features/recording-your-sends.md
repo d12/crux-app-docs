@@ -2,20 +2,39 @@
 sidebar_position: 8
 ---
 
-# Recording your sends
+# Recording Your Sends
 
-Recording your climb sends on Crux allows you to see your progress over time and browse through previous climbing sessions on your profile page.
+Tracking your sends in Crux helps you **monitor your progress** over time and browse past climbing sessions on your profile page.
 
-## How to mark sends
+---
 
-To mark a send, head to a climb page and click "Mark as sent" at the bottom. This will open the send dialog, where you can specify the number of attempts, when you sent the climb, a suggested grade, and a rating.
+## How to Mark Sends
+
+1. Open the **climb page** for the climb you sent.
+2. Tap **"Mark as sent"** at the bottom of the page.
+3. Fill out the send details:
+   - Number of **attempts**
+   - **Date** of the send
+   - **Suggested grade** (optional)
+   - **Rating** of the climb
+4. Tap **"Mark as sent"** to log your send.
 
 <img src="/img/mark-as-sent-dialog.png" alt="Marking a climb as sent on the Crux Climbing App." class="screenshot" />
 
-### Suggested grades
+---
 
-You can optionally suggest a grade when marking a climb as sent. To ensure climbs are graded fairly, we'll adjust the climb grade to match the climber consensus over time.
+## Suggested Grades
 
-## Marking repeats
+You can **suggest a grade** when logging a send.
 
-After marking your first send on a climb, the "Mark as sent" button is replaced with a purple "Log repeat" button. You can use this button to log additional sends on the climb.
+:::info
+Climb grades **adjust over time** based on climber consensus to ensure fair grading.
+:::
+
+---
+
+## Marking Repeats
+
+After logging your **first send** of a climb, the **"Mark as sent"** button changes to **"Log repeat"** (purple button).
+
+Use this to **log additional sends** of the same climb.

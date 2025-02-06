@@ -1,37 +1,48 @@
 ---
 sidebar_position: 2
-sidebar_label: Adjustable angle walls
+sidebar_label: Adjustable Angle Walls
 ---
 
-# Adjustable angle walls for homewalls
+# Adjustable Angle Walls for Homewalls
 
 :::warning
-**This feature is only available for our supporters on Patreon**. [Click here to learn more about our Patreon.](https://www.patreon.com/crux_climbing_app)
+**This feature is only available for our supporters on Patreon.**
+[Click here to learn more about our Patreon.](https://www.patreon.com/crux_climbing_app)
 :::
 
-The adjustable angle feature allows you to associate a board angle with each wall in your homewall. This lets you easily search and sort for climbs based on the angle of the wall they are on.
+The **adjustable angle** feature allows you to **assign a board angle** to each climb in your homewall. This makes it easier to **search, sort, and browse climbs** based on their angle.
 
-## Enabling the feature
+---
 
-This feature currently needs to be enabled manually by Crux staff. To get started, send us an email at [contact@cruxapp.ca](mailto:contact@cruxapp.ca) with the following information:
+## Enabling the Feature
 
-- Your gym name
-- The minimum and maximum angles of your adjustable wall
-- The increments you want to allow (e.g. 5°, 10°)
-- What angle you'd like us to use for any existing climbs on the wall.
+Currently, this feature must be **enabled manually by Crux staff**.
 
-## Assigning an angle to a climb
+To get started, send an email to [contact@cruxapp.ca](mailto:contact@cruxapp.ca) with the following details:
+- **Your gym name**
+- **The minimum and maximum angles** of your adjustable wall
+- **The increments** you want to allow (e.g., 5°, 10°)
+- **The default angle** for any existing climbs on the wall
 
-When setting a climb, you'll be required to select an angle from a list.
+---
+
+## Assigning an Angle to a Climb
+
+When setting a climb, you'll be required to **select an angle** from a list.
 
 <img src="/img/angle-when-setting-climb.png" alt="When setting a climb on a homewall with the adjustable angle feature enabled, there will be a dropdown to select an angle." class="screenshot" />
 
-## Browsing for climbs with adjustable angles
+---
 
-In the primary climb library, climbs will now have an angle beside their name to make it easy to see which climbs are on which angle wall.
+## Browsing Climbs by Angle
+
+In the **climb library**, each climb will display its assigned **angle** beside its name.
 
 <img src="/img/angle-in-climb-list.png" alt="When browsing climbs in the climb library, climbs now have an angle next to the name." class="screenshot" />
 
-Additionally, you can sort and filter by angle in the filter menu. You can open the filter menu by clicking the filter icon beside the search bar at the top of the climb library.
+### Filtering by Angle
+You can **sort and filter climbs by angle** in the filter menu:
+1. Tap the **filter icon** next to the search bar.
+2. Select your desired **angle range** to refine your search.
 
 <img src="/img/sort-filter-by-angles.png" alt="With adjustable angles enabled in your homewall, you can search and sort by angle using the filter menu." class="screenshot" />

@@ -2,22 +2,22 @@
 sidebar_position: 3
 ---
 
-# Adding a new commercial gym
+# Adding a New Commercial Gym
 
-## Who can add a commercial gym?
+## Who Can Add a Commercial Gym?
 
-You do not need to be a gym staff member to add a commercial gym to Crux. You'll be the gym owner on Crux unless your gym decides to upgrade and take ownership of the gym.
+Anyone can add a commercial gym to Crux—you don’t need to be a gym staff member. When you add a gym, you’ll initially be listed as the gym owner in Crux. If the gym decides to upgrade, they can take official ownership of the gym profile.
 
-## How much does it cost to add a commercial gym to Crux?
+## How Much Does It Cost?
 
-There is no cost to add a commercial gym to Crux. Your gym can optionally upgrade the gym's plan at a future date if they choose for a fee.
+Adding a commercial gym to Crux is completely free. If the gym wants to unlock additional features, they can choose to upgrade to a paid plan later.
 
-## How do I add a commercial gym?
+## How to Add a Commercial Gym
 
-1. Begin the gym creation process by clicking "Add a commercial gym or home wall" on the gym selection page. Additional instructions can be found [here](/docs/documentation-for-climbers/getting-started/selecting-your-gym.md).
-2. On the first page, enter the gym's name and location. Select "Commercial climbing gym" for the type.
-3. Optionally upload a banner image. This is purely decorative and is not used to verify the gym or set climbs.
-4. Specify your grading scheme. This can be V grades, Font grades, or a custom scheme.
-5. Verify the gym info, then click "Add gym" to create the gym. That's it!
+1. **Start the process** – Tap **"Add a commercial gym or home wall"** on the gym selection page. (For more details, see [Selecting Your Gym](/docs/documentation-for-climbers/getting-started/selecting-your-gym.md).)
+2. **Enter gym details** – Provide the gym’s name and location. Select **"Commercial climbing gym"** as the type.
+3. **(Optional) Add a banner image** – This is purely decorative and won’t affect route setting or verification.
+4. **Choose a grading system** – Select V grades, Font grades, or a custom grading scheme.
+5. **Review and confirm** – Double-check the details, then tap **"Add gym"** to create the gym. Done!
 
 <img src="/img/creating-a-commercial-gym.png" alt="Adding a commercial climbing gym to the Crux app" class="screenshot" />

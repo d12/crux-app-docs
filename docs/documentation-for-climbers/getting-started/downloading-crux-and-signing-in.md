@@ -2,16 +2,23 @@
 sidebar_position: 1
 ---
 
-# Downloading the Crux app and signing in
+# Downloading the Crux App and Signing In
 
 ## Downloading Crux
 
-You can download Crux for free from the [App Store](https://apps.apple.com/ca/app/climbwithcrux/id6448704757) or [Google Play](https://play.google.com/store/apps/details?id=ca.cruxapp.twa). If you're looking to share a download link with someone else, [https://www.cruxapp.ca/download](https://www.cruxapp.ca/download) will redirect them to the appropriate store for their device.
+Crux is free to download on both iOS and Android:
 
-## Signing in
+- [Download on the App Store](https://apps.apple.com/ca/app/climbwithcrux/id6448704757)
+- [Download on Google Play](https://play.google.com/store/apps/details?id=ca.cruxapp.twa)
 
-When you open Crux for the first time, you'll be asked to sign in. You can sign in with either your Apple or Google account. All of your Crux data is associated to this account, so make sure to always sign in with the same method!
+Need to share the download link? Use [https://www.cruxapp.ca/download](https://www.cruxapp.ca/download) to direct users to the right store for their device.
 
-After signing in once, you will not need to sign in again unless you log out or delete the app. You can sign out by going to the "Profile" tab, and tapping the settings cog in the top right, then scrolling down to "Log out".
+## Signing In
+
+When you open Crux for the first time, you'll need to sign in using either your **Apple** or **Google** account. Your Crux data is linked to this account, so be sure to always use the same sign-in method.
+
+### Staying Signed In
+- After signing in once, you won't need to sign in again unless you log out or delete the app.
+- To log out, go to the **Profile** tab, tap the **settings cog** in the top right, and scroll down to **Log Out**.
 
 <img src="/img/login.png" alt="Signing in to the Crux app" class="screenshot" />

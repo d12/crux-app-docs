@@ -2,14 +2,31 @@
 sidebar_position: 3
 ---
 
-# Dividing your gym into areas
+# Dividing Your Gym into Areas
 
-Since Crux lets climbers set in any area of the gym using their own photos, we don't orgnize climbs by wall photo like most other apps. Instead, climbs are pooled together by default, and can be organized by defining "areas" in your gym.
+Unlike other climbing apps that organize climbs by **wall photo**, Crux allows climbers to **set climbs anywhere in the gym** using their own photos.
 
-## What are areas?
+By default, climbs are **pooled together**, but gyms can **organize them into "areas"** for better navigation and management.
 
-An area is a distinct part of your gym that climbers can identiy by name. For example, "Bouldering cave", "45° Spray", or "Top rope wall". When you enable areas in your gym, climbers are asked to specify the location of new climbs when setting. Climbers can also search and sort climbs by area, and gym staff can unset climbs by area when an area is reset. Overall, areas make it easier for climbers to find climbs and for staff to manage climbs.
+---
 
-## How do I enable areas?
+## What Are Areas?
 
-To enable areas in your gym, reach out to Crux at [contact@cruxapp.ca](mailto:contact@cruxapp.ca) and we'll set them up for you.
+An **area** is a distinct section of your gym that climbers can easily identify by name.
+Examples include:
+- **Bouldering Cave**
+- **45° Spray Wall**
+- **Top Rope Wall**
+
+### Benefits of Using Areas:
+- **Easier navigation** – Climbers can **search and filter climbs** by area.
+- **Simplified setting** – Climbers **select an area** when setting a new climb.
+- **Better gym management** – Gym staff can **unset climbs by area** when resetting sections.
+
+Enabling areas makes it **easier for climbers to find climbs** and helps **gym staff manage resets** efficiently.
+
+---
+
+## How to Enable Areas
+
+To enable areas for your gym, **contact Crux** at [contact@cruxapp.ca](mailto:contact@cruxapp.ca), and we'll set them up for you.
