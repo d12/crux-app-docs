@@ -140,6 +140,25 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+  plugins: [
+    [require.resolve('docusaurus-lunr-search'), {
+      indexBaseUrl: true,
+      highlightSearchTermsOnTargetPage: true,
+      searchResultLimits: 10,
+      searchResultContextMaxLength: 50,
+      lunr: {
+        tokenizerSeparator: /[\s\-]+/,
+        // Adjust the boost weights here
+        pipelineFunctions: [],
+      },
+      documents: [
+        { field: "title", boost: 10 },  // Increase weight for titles
+        { field: "content", boost: 1 }, // Lower weight for content
+        { field: "h1", boost: 8 },      // Give H1 a high weight
+        { field: "h2", boost: 5 },      // Slightly lower for H2
+        { field: "h3", boost: 2 },      // Lower for H3
+      ],
+    },]],
 };
 
 export default config;
