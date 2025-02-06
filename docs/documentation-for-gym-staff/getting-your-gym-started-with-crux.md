@@ -6,6 +6,10 @@ sidebar_position: 2
 
 Welcome to Crux! We're excited to have you on board. This guide will help you get started with Crux and make the most of the platform.
 
+## Setting up payment
+
+The first step is to set up your payment method. Your contact at Crux will help you add your payment method.
+
 ## Setting up your gym
 
 This step is handled by the Crux team. If you haven't already, be sure to fill out the [onboarding form](https://docs.google.com/forms/d/e/1FAIpQLSfGkpQTSZSxq_EkcjB22kqrXb_3uxENddPGh3s8woO9ytM61g/viewform?usp=sf_link) so the team can set up your gym how you'd like it.
