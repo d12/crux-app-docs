@@ -14,6 +14,10 @@ The first step is to set up your payment method. Your contact at Crux will help 
 
 This step is handled by the Crux team. If you haven't already, be sure to fill out the [onboarding form](https://docs.google.com/forms/d/e/1FAIpQLSfGkpQTSZSxq_EkcjB22kqrXb_3uxENddPGh3s8woO9ytM61g/viewform?usp=sf_link) so the team can set up your gym how you'd like it.
 
+## Install the Crux app
+
+Please follow the instructions [here](/docs/documentation-for-climbers/getting-started/downloading-crux-and-signing-in.md) to install Crux on your phone.
+
 ## Adding your staff
 
 :::info
@@ -23,6 +27,8 @@ Note that you can only add staff who have downloaded and signed in to Crux. Ensu
 Once your gym is created and we've added a first admin, you can start adding your staff. To do this, click the settings cog at the top of your gym page and then click "Staff members". From here, you can add staff members by entering their name.
 
 Staff will have access to moderation tools, and if you enable the admin permission, they'll also have access to the gym settings.
+
+<img src="/img/manage-your-staff.png" alt="Managing your gym staff on the Crux Climbing App" class="screenshot" />
 
 ## Posting some first climbs
 
@@ -51,4 +57,4 @@ Once your gym is all set up, you're ready to spread the news! You can announce C
 
 1. **Hang posters**: The morning of your first day, hang posters in your gym. There should be a poster near the front desk and one near your spray if you have one. Crux will mail you posters, or you can print them yourself if you prefer.
 2. **Put out stickers**: We'll also mail you a bundle of stickers to hand out to climbers. This gets people excited and helps spread the word. You can place these in a pile at the front desk.
-3. **Announce on social media**: Post about Crux on your social media channels. We can provide you with some images to use.
+3. **Announce on social media**: Post about Crux on your social media channels. You can find our logos, images, and QR codes here: [Crux Creative Assets](https://drive.google.com/drive/u/0/folders/1Opfo40ceL-2rQ98L8CWc5F4BQouUiLFu)
