@@ -23,11 +23,15 @@ This allows gyms to:
 
 When **gym-set climbs** are enabled, your **gym’s climb directory** will have **two tabs**:
 - **Custom Climbs** – Climbs set by your community.
-- **Official Climbs** – Climbs set by gym staff.
+- **Official Climbs** – Climbs set by gym staff. These are "official" climbs that follow one color of holds and may be graded.
 
 ### Setting Official Climbs
-- The **setting interface is streamlined** for quick entry.
 - **Only gym staff** can set official climbs.
+- **To set official climbs**,
+  1. Open the **Official Climbs tab**.
+  2. Tap the "..." button on the top right.
+  3. Tap the "New set" button.
+  4. Follow the instructions to set new climbs.
 
 ---
 
@@ -39,6 +43,8 @@ This allows climbers to:
 - **See what’s new** before arriving at the gym.
 - **Plan their session** in advance.
 - **Get excited** to try fresh climbs!
+
+New-set notifications will go out within an hour of you posting a new set.
 
 ---
 
