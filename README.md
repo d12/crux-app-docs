@@ -9,7 +9,7 @@ The documentation can be accessed at [https://docs.cruxapp.ca/](https://docs.cru
 ### Installation
 
 ```
-$ npm
+$ npm install
 ```
 
 ### Local Development
