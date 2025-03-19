@@ -23,3 +23,7 @@ This command starts a local development server and opens up a browser window. Mo
 ### Deployment
 
 This repo is automatically deployed when main is pushed.
+
+### Contribution
+
+Contributions are welcome! To contribute, please fork the repository and create a pull request with your changes.
