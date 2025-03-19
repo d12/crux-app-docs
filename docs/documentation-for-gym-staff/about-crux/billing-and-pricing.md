@@ -13,6 +13,8 @@ Crux operates on a **flexible, month-to-month subscription** with **no long-term
 - You can **start or cancel at any time**.
 - The **gym is billed directly**—there are **no additional fees for your climbers**.
 
+We do also offer **discounted annual billing** for gyms that prefer it.
+
 ---
 
 ## What's Included?
@@ -28,6 +30,6 @@ Your Crux subscription provides:
 
 ## Pricing
 
-Crux pricing varies by region but is generally **less than the cost of a single climber’s monthly membership**.
+Crux pricing varies by region.
 
-For specific pricing details, please **contact us** at [contact@cruxapp.ca](mailto:contact@cruxapp.ca).
+For specific pricing details, please **contact us** at [nat@cruxapp.ca](mailto:nat@cruxapp.ca).
