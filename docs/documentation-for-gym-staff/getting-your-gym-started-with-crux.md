@@ -39,6 +39,15 @@ Staff have access to **moderation tools**, and if you enable **admin permissions
 
 <img src="/img/manage-your-staff.png" alt="Managing your gym staff on the Crux Climbing App" class="screenshot" />
 
+### Adding your spray wall
+
+If you have a spray wall, it should be added to the app before climbers begin using the app.
+
+To add your spray wall:
+1. Open your **gym page** and tap the **settings cog**.
+2. Select **Climbing walls**
+3. Follow the instructions to add your spray walls.
+
 ### Posting Initial Climbs
 
 Before announcing Crux to your climbers, it’s helpful to have some climbs set. This helps new users **understand Crux’s purpose** when they first install the app.
@@ -51,18 +60,6 @@ To add climbs:
 If you have a **spray wall**, we recommend setting at least:
 - **One spray climb**
 - **One regular wall climb**
-
-### Pinning a Spray Wall Photo
-
-Climbers can **select an existing wall image** when setting a climb instead of taking a new photo. To simplify setting, we recommend **pinning a photo of your spray wall**.
-
-Before pinning a photo, make sure you’ve **set at least one climb on your spray wall** so there’s an image available in your recent photos.
-
-To pin a photo:
-1. Open the **"Climbs"** tab.
-2. Tap **"Add Climb"** in the bottom right.
-3. Select **"Or, use a photo from a recent climb."**
-4. Tap **"..."** in the top right of the photo you want to pin and select **"Pin Photo"**.
 
 ---
 
