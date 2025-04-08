@@ -36,3 +36,14 @@
 .hidden-in-sidebar {
   display: none !important;
 }
+
+@media (min-width: 996px) {
+  .docs-doc-id-api-documentation\/api-reference main>div.container>div>div.col {
+    max-width: 60% !important;
+  }
+
+  .docs-doc-id-api-documentation\/api-reference main>div.container>div>div.col--3 {
+    max-width: 40% !important;
+    min-width: 40% !important;
+  }
+}
