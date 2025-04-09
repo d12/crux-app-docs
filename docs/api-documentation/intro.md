@@ -25,6 +25,10 @@ The API is currently in "beta" and has no versioning or breaking change policy. 
 
 That said, we'll do our best to avoid breaking changes. All breaking changes and API updates will be announced in the #api-platform channel of the [Discord](https://discord.com/invite/ypt6e9HBVC).
 
+## Webhooks
+
+We support webhook events for subscribing to different events on Crux. Please see the [webhooks documentation](/docs/api-documentation/webhooks.md) for more information.
+
 ## Feature requests
 
 If you need another API or webhook to make your integration possible, please reach out either on [Discord](https://discord.com/invite/ypt6e9HBVC) or via email at [nat@cruxapp.ca](mailto:nat@cruxapp.ca).
