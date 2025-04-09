@@ -2,6 +2,7 @@
 sidebar_position: 4
 description: "Subscribe to events on Crux with webhooks."
 className: api-docs-wide
+toc_max_heading_level: 4
 ---
 
 # Webhooks
