@@ -150,7 +150,7 @@ This document is a reference for the Crux API. It contains information about the
 > 
 > #### Response:
 > 
-> [Climb (full)](#climb-full)
+> [Climb](#climb)
 > 
 
 ### `GET /api/v1/gyms/:gym_slug/official_climbs`
@@ -169,7 +169,7 @@ This document is a reference for the Crux API. It contains information about the
 > 
 > #### Response:
 > 
-> [Climb (full)](#climb-full)
+> [Climb](#climb)
 > 
 
 ### `GET /api/v1/gym_walls/:id`
@@ -466,6 +466,10 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > When the climb was last updated.
 >
+> #### `sends` <span class="object-type">array [Send](#send)</span>
+>
+> List of sends for this climb.
+>
 
 ### ClimbHold
 
@@ -589,7 +593,7 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > The date of the climb session (YYYY-MM-DD). This can be different from the created_at timestamp if you are creating a session for a past date.
 >
-> #### `sends` <span class="object-type">array [Send](#send)</span>
+> #### `sends` <span class="object-type">array [Send (full)](#send-full)</span>
 >
 > List of sends during the session.
 >
@@ -697,9 +701,36 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > The date of the session in which this send occurred.
 >
+> #### `user` <span class="object-type">[User](#user)</span>
+>
+> The user who sent the climb.
+>
+
+### Send (full)
+
+> #### `id` <span class="object-type">integer</span>
+>
+> An ID that uniquely identifies the resource across Crux.
+>
+> #### `created_at` <span class="object-type">string</span>
+>
+> Timestamp when the send was recorded.
+>
+> #### `repeat` <span class="object-type">boolean</span>
+>
+> Whether this was a repeat send of the climb.
+>
+> #### `send_date` <span class="object-type">string</span>
+>
+> The date of the session in which this send occurred.
+>
 > #### `climb` <span class="object-type">[Climb](#climb)</span>
 >
 > The climb that was sent.
+>
+> #### `user` <span class="object-type">[User](#user)</span>
+>
+> The user who sent the climb.
 >
 
 ### User (authenticated)
