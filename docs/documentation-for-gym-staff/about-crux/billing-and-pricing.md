@@ -30,6 +30,6 @@ Your Crux subscription provides:
 
 ## Pricing
 
-Crux pricing varies by region.
+Our pricing plans are available at the bottom of our website here: [https://www.cruxapp.ca](https://www.cruxapp.ca).
 
-For specific pricing details, please **contact us** at [nat@cruxapp.ca](mailto:nat@cruxapp.ca).
+
