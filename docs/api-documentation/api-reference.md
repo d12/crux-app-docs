@@ -191,6 +191,25 @@ This document is a reference for the Crux API. It contains information about the
 > [GymWall](#gymwall)
 > 
 
+### `GET /api/v1/gym_walls/:id/active_climb`
+
+> Returns the active climb for the specified gym wall.
+> 
+> #### Parameters:
+> 
+> ##### `id`
+> 
+> The ID of the gym wall to retrieve. This parameter is required.
+> 
+> #### Authorization:
+> 
+> Public.
+> 
+> #### Response:
+> 
+> [Climb (full)](#climb-full)
+> 
+
 ### `GET /api/v1/gyms/:gym_slug/gym_walls`
 
 > Returns a list of all gym walls for the specified gym.
