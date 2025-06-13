@@ -654,6 +654,10 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > The cumulative number of sends at this gym across all climbs, including unset climbs.
 >
+> #### `url_slug` <span class="object-type">string</span>
+>
+> The URL slug of the gym.
+>
 
 ### GymWall
 
