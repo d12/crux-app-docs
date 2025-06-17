@@ -134,7 +134,7 @@ This document is a reference for the Crux API. It contains information about the
 > [Climb (full)](#climb-full)
 > 
 
-### `GET /api/v1/gyms/:gym_slug/custom_climbs`
+### `GET /api/v1/gyms/:gym_slug/climbs/custom`
 
 > Returns a list of custom climbs for the specified gym.
 > 
@@ -153,7 +153,7 @@ This document is a reference for the Crux API. It contains information about the
 > [Climb](#climb)
 > 
 
-### `GET /api/v1/gyms/:gym_slug/official_climbs`
+### `GET /api/v1/gyms/:gym_slug/climbs/official`
 
 > Returns a list of official climbs for the specified gym.
 > 
