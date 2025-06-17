@@ -144,6 +144,10 @@ This document is a reference for the Crux API. It contains information about the
 > 
 > The URL slug of the gym whose custom climbs you want to retrieve. This parameter is required.
 > 
+> ##### `page`
+> 
+> The page number to retrieve (defaults to 1). This parameter is optional.
+> 
 > #### Authorization:
 > 
 > Public.
@@ -162,6 +166,10 @@ This document is a reference for the Crux API. It contains information about the
 > ##### `gym_slug`
 > 
 > The URL slug of the gym whose official climbs you want to retrieve. This parameter is required.
+> 
+> ##### `page`
+> 
+> The page number to retrieve (defaults to 1). This parameter is optional.
 > 
 > #### Authorization:
 > 
