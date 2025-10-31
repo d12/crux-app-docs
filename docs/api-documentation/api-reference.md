@@ -275,6 +275,25 @@ This document is a reference for the Crux API. It contains information about the
 > [WebhookRegistration (full)](#webhookregistration-full)
 > 
 
+### `GET /api/v1/gyms/:gym_slug/active_climb`
+
+> Returns the active climb for any wall on the specified gym.
+> 
+> #### Parameters:
+> 
+> ##### `gym_slug`
+> 
+> URL slug for the gym. This parameter is required.
+> 
+> #### Authorization:
+> 
+> Public.
+> 
+> #### Response:
+> 
+> [Climb (full)](#climb-full)
+> 
+
 ### `GET /api/v1/users/:user_id`
 
 > Returns details for a specific user.
