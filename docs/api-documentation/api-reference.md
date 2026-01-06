@@ -530,6 +530,10 @@ These are the definitions of the objects returned by the API. Some objects have 
 
 ### ClimbHold (on_climb)
 
+> #### `circuit_numbers` <span class="object-type">array</span>
+>
+> Circuit identifiers applied to this hold. Empty when the climb is not part of a circuit.
+>
 > #### `hold_type` <span class="object-type">string</span>
 >
 > The type of hold. One of [hand, hand_l, hand_r, foot, foot_l, foot_r, start, finish, zone]
