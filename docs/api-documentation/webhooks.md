@@ -53,6 +53,12 @@ We do not currently have a UI to view details about webhook deliveries. You can 
 >
 >Returns a [WebhookDelivery](/docs/api-documentation/api-reference.md#webhookdelivery) object with a `payload` field of type [Send (full)](/docs/api-documentation/api-reference.md#send-full).
 >
+#### `climb.updated`
+>
+>This event is triggered when any climb is updated at the gym.
+>
+>Returns a [WebhookDelivery](/docs/api-documentation/api-reference.md#webhookdelivery) object with a `payload` field of type [Climb (full)](/docs/api-documentation/api-reference.md#climb-full).
+>
 #### `gym_wall.created`
 >
 >This event is triggered when a gym wall is created at the gym.
