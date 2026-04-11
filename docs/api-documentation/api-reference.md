@@ -180,6 +180,25 @@ This document is a reference for the Crux API. It contains information about the
 > [Climb](#climb)
 > 
 
+### `GET /api/v1/climbs/:id/drawings`
+
+> Returns the draw-type modifications (freehand drawings) for a specific climb.
+> 
+> #### Parameters:
+> 
+> ##### `id`
+> 
+> The ID of the climb to retrieve drawings for. This parameter is required.
+> 
+> #### Authorization:
+> 
+> Public.
+> 
+> #### Response:
+> 
+> [ClimbDrawing](#climbdrawing)
+> 
+
 ### `GET /api/v1/gym_walls/:id`
 
 > Returns details for a specific gym wall.
@@ -515,6 +534,21 @@ These are the definitions of the objects returned by the API. Some objects have 
 > #### `sends` <span class="object-type">array [Send](#send)</span>
 >
 > List of sends for this climb.
+>
+
+### ClimbDrawing
+
+> #### `color` <span class="object-type">nullable string</span>
+>
+> The hex color code of the drawing (e.g. '#FF0000').
+>
+> #### `points` <span class="object-type">array</span>
+>
+> An array of coordinate pairs [[x, y], ...] that form the drawing path. Coordinates are relative to the climb image dimensions.
+>
+> #### `type` <span class="object-type">string</span>
+>
+> The type of drawing modification. Always 'draw'.
 >
 
 ### ClimbHold
