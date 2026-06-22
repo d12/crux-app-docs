@@ -531,6 +531,10 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > When the climb was last updated.
 >
+> #### `wall_id` <span class="object-type">nullable integer</span>
+>
+> The ID of the wall this climb is on. Returns null if the climb is not set on a wall.
+>
 > #### `sends` <span class="object-type">array [Send](#send)</span>
 >
 > List of sends for this climb.
