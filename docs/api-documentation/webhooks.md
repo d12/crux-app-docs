@@ -41,6 +41,12 @@ We do not currently have a UI to view details about webhook deliveries. You can 
 
 ## Gym Events
 
+#### `climb.activated`
+>
+>This event is triggered when a climb is made active on a gym wall.
+>
+>Returns a [WebhookDelivery](/docs/api-documentation/api-reference.md#webhookdelivery) object with a `payload` field of type [Climb (full)](/docs/api-documentation/api-reference.md#climb-full).
+>
 #### `climb.created`
 >
 >This event is triggered when any climb is created at the gym.
