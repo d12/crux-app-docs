@@ -199,6 +199,44 @@ This document is a reference for the Crux API. It contains information about the
 > [ClimbDrawing](#climbdrawing)
 > 
 
+### `POST /api/v1/climbs/:id/activate`
+
+> Sets a climb as the active climb on its wall. Only one climb can be active per gym, so any other active climb at the gym is deactivated. Triggers the `climb.activated` webhook. Returns the activated climb.
+> 
+> #### Parameters:
+> 
+> ##### `id`
+> 
+> The ID of the climb to set as active. This parameter is required.
+> 
+> #### Authorization:
+> 
+> Any authenticated user. The climb's gym must have LED features enabled.
+> 
+> #### Response:
+> 
+> [Climb (full)](#climb-full)
+> 
+
+### `POST /api/v1/climbs/:id/deactivate`
+
+> Clears the active climb on the climb's wall, if this climb is the active one. Does nothing if the climb is not currently active. Returns HTTP 200 if successful.
+> 
+> #### Parameters:
+> 
+> ##### `id`
+> 
+> The ID of the climb to deactivate. This parameter is required.
+> 
+> #### Authorization:
+> 
+> Any authenticated user. The climb's gym must have LED features enabled.
+> 
+> #### Response:
+> 
+> [Empty](#empty)
+> 
+
 ### `GET /api/v1/gym_walls/:id`
 
 > Returns details for a specific gym wall.
