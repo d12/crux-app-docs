@@ -13,6 +13,14 @@ def blueprint_object_to_link(blueprint_object)
   blueprint_name
 end
 
+# Descriptions are MDX, where a bare < starts a JSX tag (e.g. "custom_<id>" breaks the build).
+# Escapes < and > outside `inline code`, where they're shown as written.
+def mdx_text(text)
+  return text if text.nil?
+
+  text.split(/(`[^`]*`)/).map { |part| part.start_with?("`") ? part : part.gsub("<", "&lt;").gsub(">", "&gt;") }.join
+end
+
 def blockquote(text)
   text.lines.map { |line| "> #{line.chomp}" }.join("\n") + "\n"
 end
@@ -42,7 +50,9 @@ def generate_response_objects_section(docs_json_data)
       (view_data["fields"] || []).each do |field|
         next unless field["name"] # skip if malformed
 
-        if field["name"] == "id"
+        # Resource identifiers aren't documented in the blueprints. Other `id` fields (like a
+        # hold's) describe themselves.
+        if field["name"] == "id" && field["description"].nil?
           field["nullable"] = false
           field["type"] = "integer"
           field["description"] = "An ID that uniquely identifies the resource across Crux."
@@ -50,7 +60,7 @@ def generate_response_objects_section(docs_json_data)
 
         type = format_type(field["type"], nullable: field["nullable"])
         section << "> #### `#{field["name"]}` <span class=\"object-type\">#{type}</span>\n>\n"
-        section << "> #{field["description"]}\n>\n" if field["description"]
+        section << "> #{mdx_text(field["description"])}\n>\n" if field["description"]
       end
 
       # Associations
@@ -61,7 +71,7 @@ def generate_response_objects_section(docs_json_data)
         type = "array #{type}" if assoc["array"]
 
         section << "> #### `#{assoc["name"]}` <span class=\"object-type\">#{type}</span>\n>\n"
-        section << "> #{assoc["description"]}\n>\n" if assoc["description"]
+        section << "> #{mdx_text(assoc["description"])}\n>\n" if assoc["description"]
       end
 
       section << "\n"
@@ -84,13 +94,13 @@ def generate_api_endpoints_section(docs_json_data)
       section << "### #{action_title}\n\n"
 
       block = ""
-      block << "#{action_data["description"]}\n\n"
+      block << "#{mdx_text(action_data["description"])}\n\n"
 
       block << "#### Parameters:\n\n"
       action_data["params"].each do |param_name, param_data|
         required_string = param_data["required"] ? " This parameter is required." : " This parameter is optional."
         block << "##### `#{param_name}`\n\n"
-        block << "#{param_data["description"]}#{required_string}\n\n"
+        block << "#{mdx_text(param_data["description"])}#{required_string}\n\n"
       end
 
       block << "#### Authorization:\n\n"
@@ -123,7 +133,7 @@ def generate_webhooks_section(docs_json_data)
 
     owner_events.sort_by { |_, meta| meta["name"] }.each do |event_class_name, metadata|
       name = metadata["name"]
-      desc = metadata["description"]
+      desc = mdx_text(metadata["description"])
       payload_type = metadata["payload_type"]
       payload_link = "[#{blueprint_object_to_string(payload_type)}](/docs/api-documentation/api-reference.md##{blueprint_object_to_link(payload_type)})"
 

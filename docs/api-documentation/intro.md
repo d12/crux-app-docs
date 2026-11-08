@@ -25,6 +25,12 @@ The API is currently in "beta" and has no versioning or breaking change policy. 
 
 That said, we'll do our best to avoid breaking changes. All breaking changes and API updates will be announced in the #api-platform channel of the [Discord](https://discord.com/invite/ypt6e9HBVC).
 
+When there's a better way to get something, we mark the old field as deprecated in the reference. Deprecated fields keep working.
+
+## Walls, holds and creating climbs
+
+You can fetch the holds on a gym wall and create climbs from them. Please see the [walls, holds and creating climbs](/docs/api-documentation/walls-and-holds.md) page for more information.
+
 ## Webhooks
 
 We support webhook events for subscribing to different events on Crux. Please see the [webhooks documentation](/docs/api-documentation/webhooks.md) for more information.
