@@ -48,10 +48,7 @@ Hold responses include an `ETag` header. Send it back in `If-None-Match` and you
 
 Each hold has an `id`. A hold has the same ID in the photo's holds and in the holds of every climb that uses it, so you can match a climb's holds to the wall's (to light up the right LEDs on a board, for example).
 
-Treat hold IDs as opaque strings. They don't change, except:
-
-- Re-photographing a wall gives its holds new IDs.
-- On walls photographed before November 2026, the first time the gym edits the wall's holds gives every hold a new ID. After that, editing some holds doesn't change the IDs of the others.
+Treat hold IDs as opaque strings. They don't change, except that re-photographing a wall gives its holds new IDs.
 
 If you store hold IDs (for example, a mapping from holds to LEDs), refresh them when a wall's `current_photo` changes.
 
