@@ -440,7 +440,11 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > #### `foot_rules` <span class="object-type">nullable string</span>
 >
-> Foot rules for the climb. One of [feet_follow_hands, any_feet, campus, feet_follow_hands_open_kicker, only_marked_feet]
+> Foot rules for the climb. One of [feet_follow_hands, any_feet, campus, feet_follow_hands_open_kicker, only_marked_feet], or custom_<id> for a feet rule the gym defined itself.
+>
+> #### `foot_rules_name` <span class="object-type">nullable string</span>
+>
+> Human-readable name of the climb's foot rules, e.g. "Feet follow hands" or the name of the gym's own feet rule.
 >
 > #### `grade` <span class="object-type">nullable string</span>
 >
@@ -452,7 +456,7 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > #### `image_url` <span class="object-type">nullable string</span>
 >
-> The final (edited) image URL for the climb.
+> The final (edited) image URL for the climb: the photo with its holds highlighted. For most climbs this image is drawn from the climb's data when it's first requested, so the first request can take up to a second; after that it's cached. The URL changes whenever the climb's holds, photo or styling change.
 >
 > #### `image_width` <span class="object-type">nullable integer</span>
 >
@@ -507,7 +511,11 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > #### `foot_rules` <span class="object-type">nullable string</span>
 >
-> Foot rules for the climb. One of [feet_follow_hands, any_feet, campus, feet_follow_hands_open_kicker, only_marked_feet]
+> Foot rules for the climb. One of [feet_follow_hands, any_feet, campus, feet_follow_hands_open_kicker, only_marked_feet], or custom_<id> for a feet rule the gym defined itself.
+>
+> #### `foot_rules_name` <span class="object-type">nullable string</span>
+>
+> Human-readable name of the climb's foot rules, e.g. "Feet follow hands" or the name of the gym's own feet rule.
 >
 > #### `grade` <span class="object-type">nullable string</span>
 >
@@ -531,7 +539,7 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > #### `image_url` <span class="object-type">nullable string</span>
 >
-> The final (edited) image URL for the climb.
+> The final (edited) image URL for the climb: the photo with its holds highlighted. For most climbs this image is drawn from the climb's data when it's first requested, so the first request can take up to a second; after that it's cached. The URL changes whenever the climb's holds, photo or styling change.
 >
 > #### `image_width` <span class="object-type">nullable integer</span>
 >
