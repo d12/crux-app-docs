@@ -21,19 +21,84 @@ Gym webhooks pertain to a specific gym and can be triggered by anyone at the gym
 
 To register a user webhook, head to the user settings and tap `User webhooks`. To register a gym webhook, head to the gym settings and tap `Gym webhooks`.
 
-Webhooks must be registered with a publically accessible http or https endpoint.
+Webhooks must be registered with a publicly accessible http or https endpoint. URLs that point at private, loopback or other internal addresses (`localhost`, `10.x.x.x`, `192.168.x.x`, `169.254.169.254`, `fc00::/7` and the like) aren't accepted, and a delivery is refused if the host resolves to one.
+
+Each webhook has a **signing secret**. Copy it from the webhook list (the key icon), or read it as `signing_secret` from the [webhook_registrations](/docs/api-documentation/api-reference.md) APIs.
 
 ## Webhook Delivery
 
 Webhook events are delivered via POST request to the URL you provided. The body of the request will be a JSON object containing the event data.
 
-You must return a HTTP 200 response to acknowledge receipt of the webhook. If you do not respond, the delivery will be retried up to 3 times before failing.
+Return any 2xx response to acknowledge receipt of the webhook. If you don't, the delivery is retried up to 3 times before failing.
 
-All webhook deliveries have a timeout of 5 seconds.
+All webhook deliveries have a timeout of 5 seconds. Redirects aren't followed.
+
+Each delivery is sent with these headers:
+
+| Header | Value |
+|---|---|
+| `Content-Type` | `application/json` |
+| `User-Agent` | `Crux-Webhooks` |
+| `X-Crux-Delivery-Id` | The delivery's ID. The same ID is sent again if the delivery is retried. |
+| `X-Crux-Signature` | `t=<unix time>,v1=<signature>` (see below) |
+
+## Verifying deliveries
+
+Anyone can send a request to your endpoint, so check the `X-Crux-Signature` header before trusting a delivery:
+
+1. Split the header on `,` into `t` (a Unix timestamp) and `v1` (the signature).
+2. Compute the HMAC-SHA256 of `<t>.<raw request body>` with your webhook's signing secret, as a lowercase hex string. Use the raw body exactly as received, before parsing the JSON.
+3. Compare it with `v1` in constant time.
+4. Reject the delivery if `t` is more than a few minutes old, so a captured request can't be replayed later.
+
+```js
+// Node.js (Express): app.post("/crux", express.raw({ type: "application/json" }), handler)
+const crypto = require("crypto");
+
+function verifyCruxSignature(rawBody, header, secret, toleranceSeconds = 300) {
+  const parts = Object.fromEntries(header.split(",").map((part) => part.split("=", 2)));
+  const timestamp = Number(parts.t);
+  if (!timestamp || !parts.v1) return false;
+  if (Math.abs(Date.now() / 1000 - timestamp) > toleranceSeconds) return false;
+
+  const expected = crypto.createHmac("sha256", secret).update(`${parts.t}.${rawBody}`).digest("hex");
+  return expected.length === parts.v1.length &&
+    crypto.timingSafeEqual(Buffer.from(expected), Buffer.from(parts.v1));
+}
+```
+
+```python
+# Python
+import hashlib, hmac, time
+
+def verify_crux_signature(raw_body: bytes, header: str, secret: str, tolerance_seconds: int = 300) -> bool:
+    parts = dict(part.split("=", 1) for part in header.split(",") if "=" in part)
+    if "t" not in parts or "v1" not in parts or not parts["t"].isdigit():
+        return False
+    if abs(time.time() - int(parts["t"])) > tolerance_seconds:
+        return False
+    expected = hmac.new(secret.encode(), parts["t"].encode() + b"." + raw_body, hashlib.sha256).hexdigest()
+    return hmac.compare_digest(expected, parts["v1"])
+```
+
+```ruby
+# Ruby
+require "openssl"
+
+def verify_crux_signature(raw_body, header, secret, tolerance_seconds: 300)
+  parts = header.to_s.split(",").to_h { |part| part.split("=", 2) }
+  timestamp = parts["t"].to_s
+  return false unless timestamp.match?(/\A\d+\z/) && parts["v1"]
+  return false if (Time.now.to_i - timestamp.to_i).abs > tolerance_seconds
+
+  expected = OpenSSL::HMAC.hexdigest("SHA256", secret, "#{timestamp}.#{raw_body}")
+  OpenSSL.fixed_length_secure_compare(expected, parts["v1"]) rescue false
+end
+```
 
 ## Delivery Introspection
 
-We do not currently have a UI to view details about webhook deliveries. You can view details about recent delivery attempts via the [webhook_registrations](/docs/api-documentation/api-reference.md) APIs however.
+We do not currently have a UI to view details about webhook deliveries. You can view details about recent delivery attempts via the [webhook_registrations](/docs/api-documentation/api-reference.md) APIs however. A failed delivery's `error` is a short reason (for example `HTTP 500`, `Timed out` or `Refused: …`); your endpoint's response body isn't recorded.
 
 ## Available Webhook Events
 

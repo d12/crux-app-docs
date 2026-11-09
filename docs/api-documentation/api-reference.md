@@ -1199,6 +1199,10 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > Type of the owner resource. One of [Gym, User]
 >
+> #### `signing_secret` <span class="object-type">string</span>
+>
+> The secret this registration's deliveries are signed with. Each delivery has an `X-Crux-Signature: t=<unix time>,v1=<signature>` header, where the signature is the hex HMAC-SHA256 of `<t>.<raw request body>` keyed with this secret. Recompute it to check a delivery came from Crux, and reject old timestamps to stop replays.
+>
 > #### `url` <span class="object-type">string</span>
 >
 > The endpoint URL where webhooks will be delivered.
