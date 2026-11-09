@@ -5,7 +5,9 @@ description: "Learn about how to authenticate your API requests."
 
 # Authentication
 
-All requests must be authenticated via a Bearer token. To get a token, head to your user settings and click on "API Authentication".
+All requests must be authenticated via a Bearer token. To get a token, head to your user settings, click on "API Authentication" and create a key.
+
+**Your key is only shown once, when it's created.** Crux stores a hash of it, not the key itself, so copy it somewhere safe straight away. Afterwards the screen only shows the key's last few characters, to help you tell keys apart.
 
 <img src="/img/api-keys.png" alt="API Authentication" class="screenshot" />
 
@@ -32,4 +34,4 @@ curl -H "Authorization: Bearer $CRUX_TOKEN" \
 
 ## Cycling your API key
 
-If you think your API key has been leaked, you can cycle it in the API Authentication menu. This will generate a new key and invalidate the old one.
+If you think your API key has been leaked, or you've lost it, you can cycle it in the API Authentication menu. This generates a new key (shown once) and invalidates the old one immediately.
