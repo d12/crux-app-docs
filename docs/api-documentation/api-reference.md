@@ -538,7 +538,7 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > An ID that uniquely identifies the resource across Crux.
 >
-> #### `angle` <span class="object-type">nullable string</span>
+> #### `angle` <span class="object-type">nullable integer</span>
 >
 > The angle this climb was set at. Only for climbs on adjustable walls.
 >
@@ -609,7 +609,7 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > An ID that uniquely identifies the resource across Crux.
 >
-> #### `angle` <span class="object-type">nullable string</span>
+> #### `angle` <span class="object-type">nullable integer</span>
 >
 > The angle this climb was set at. Only for climbs on adjustable walls.
 >
