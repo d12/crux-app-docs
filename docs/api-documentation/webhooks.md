@@ -15,11 +15,32 @@ We have two types of webhook types, `user` and `gym` webhooks.
 
 User webhooks pertain to your own user and are triggered when you do different things on Crux. You can only register user webhooks for yourself.
 
-Gym webhooks pertain to a specific gym and can be triggered by anyone at the gym. You can only register gym webhooks if you are a gym admin.
+Gym webhooks pertain to a specific gym and can be triggered by anyone at the gym. There are two ways to have one:
+
+- **Owned by the gym.** Gym admins register these in the gym's settings, and they're managed by all of the gym's admins.
+- **Owned by you.** Anyone can register a gym webhook of their own for a gym they've opened in Crux (and, for a private gym, are still allowed to see). It belongs to you: it's listed with your webhooks, not in the gym's settings. It only receives what you could see in the app, so not other climbers' draft climbs or sends by climbers who hide their profile.
+
+A registration's `owner_type` says who owns it, and its `scope_type` says where its events come from (`User` for your own events, `Gym` for a gym's, with the gym in `gym_url_slug`).
 
 ## Registering a webhook
 
-To register a user webhook, head to the user settings and tap `User webhooks`. To register a gym webhook, head to the gym settings and tap `Gym webhooks`.
+**In the app:** to register a webhook of your own, head to the user settings and tap `User webhooks`, then choose whether it gets **My activity** or the events at one of your gyms. To register a gym-owned webhook, head to the gym settings and tap `Gym webhooks`.
+
+**With the API:** register a webhook of your own with your API key, without anyone opening the app:
+
+```bash
+# Your own events
+curl -X POST https://www.cruxapp.ca/api/v1/webhook_registrations \
+  -H "Authorization: Bearer $CRUX_API_KEY" -H "Content-Type: application/json" \
+  -d '{"url": "https://example.com/crux", "event_type": "climb.sent"}'
+
+# A gym's events
+curl -X POST https://www.cruxapp.ca/api/v1/webhook_registrations \
+  -H "Authorization: Bearer $CRUX_API_KEY" -H "Content-Type: application/json" \
+  -d '{"url": "https://example.com/crux", "event_type": "climb.deactivated", "gym_slug": "your-gym"}'
+```
+
+The response is the new registration, including its `signing_secret`. Delete one with `DELETE /api/v1/webhook_registrations/:id`, and list yours with `GET /api/v1/users/me/webhook_registrations`. See the [API reference](/docs/api-documentation/api-reference.md) for details.
 
 Webhooks must be registered with a publicly accessible http or https endpoint. URLs that point at private, loopback or other internal addresses (`localhost`, `10.x.x.x`, `192.168.x.x`, `169.254.169.254`, `fc00::/7` and the like) aren't accepted, and a delivery is refused if the host resolves to one.
 
@@ -115,6 +136,12 @@ We do not currently have a UI to view details about webhook deliveries. You can 
 #### `climb.created`
 >
 >This event is triggered when any climb is created at the gym.
+>
+>Returns a [WebhookDelivery](/docs/api-documentation/api-reference.md#webhookdelivery) object with a `payload` field of type [Climb (full)](/docs/api-documentation/api-reference.md#climb-full).
+>
+#### `climb.deactivated`
+>
+>This event is triggered when a climb stops being the active climb on a gym wall: it was deactivated, or another climb was activated in its place.
 >
 >Returns a [WebhookDelivery](/docs/api-documentation/api-reference.md#webhookdelivery) object with a `payload` field of type [Climb (full)](/docs/api-documentation/api-reference.md#climb-full).
 >
