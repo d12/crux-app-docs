@@ -55,8 +55,8 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/socialcard.jpg',
+    // Link preview image, drawn by scripts/social_cards/render.mjs in d12/crux-app
+    image: 'img/social-card.jpg',
     navbar: {
       title: 'Crux Docs',
       logo: {
