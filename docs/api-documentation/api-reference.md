@@ -1034,7 +1034,7 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > #### `holds` <span class="object-type">[HoldMappingHold](#holdmappinghold)</span>
 >
-> Every hold on this photo, with the ID of the same hold on the previous photo when it was matched.
+> Every hold on this photo, with the ID of the same hold on the previous photo when it was matched, or of the hold it replaced when it was swapped for it.
 >
 > #### `match_rate` <span class="object-type">number</span>
 >
@@ -1050,7 +1050,7 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > #### `removed_hold_ids` <span class="object-type">array</span>
 >
-> IDs of holds on the previous photo that weren't matched to any hold on this one (removed, or not recognised).
+> IDs of holds on the previous photo that weren't matched to any hold on this one (removed, swapped for a different hold, or not recognised).
 >
 
 ### HoldMappingHold
@@ -1062,6 +1062,10 @@ These are the definitions of the objects returned by the API. Some objects have 
 > #### `previous_id` <span class="object-type">nullable string</span>
 >
 > The same hold's ID on the previous photo. Null when the hold wasn't matched to one there (it's new, or wasn't recognised).
+>
+> #### `swapped_from_id` <span class="object-type">nullable string</span>
+>
+> When this hold replaced a different hold of similar shape in the same spot on the previous photo (for example a hold of another colour), that hold's ID on the previous photo. The two aren't matched, so previous_id is null. Null otherwise.
 >
 
 ### Send
