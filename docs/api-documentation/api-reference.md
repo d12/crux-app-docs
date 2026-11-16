@@ -524,6 +524,25 @@ This document is a reference for the Crux API. It contains information about the
 > [WallPhoto (with_holds)](#wallphoto-with_holds)
 > 
 
+### `GET /api/v1/wall_photos/:id/hold_mapping`
+
+> Returns which hold of a wall photo is which hold of the wall's previous photo. When a wall is re-photographed, Crux matches the old photo's holds to the new one's, so you can carry anything you keep per hold over to the new hold IDs. Follow a wall's photos with `previous_photo_id` and `next_photo_id`, calling this for each. Responds 404 when the photo wasn't matched to a previous photo.
+> 
+> #### Parameters:
+> 
+> ##### `id`
+> 
+> The ID of the wall photo (the newer of the two). This parameter is required.
+> 
+> #### Authorization:
+> 
+> Public.
+> 
+> #### Response:
+> 
+> [HoldMapping](#holdmapping)
+> 
+
 ### `POST /api/v1/webhook_registrations`
 
 > Registers a webhook owned by you. Without `gym_slug` it gets your own events (user events: `climb.sent`, `climb.created`, `climb.viewed`). With `gym_slug` it gets that gym's events (gym events: `climb.created`, `climb.updated`, `climb.activated`, `climb.deactivated`, `climb.sent`, `gym_wall.created`), only those you could see in the app (not other climbers' draft climbs, or sends by climbers who hide their profile). It's listed with your webhooks, not the gym's. Send the parameters as a JSON body or form fields. Returns the new registration, including its `signing_secret`, with a 201 status. Returns a 422 with the reason if the URL or event type isn't valid.
@@ -1003,6 +1022,48 @@ These are the definitions of the objects returned by the API. Some objects have 
 > Timestamp when the wall was last updated.
 >
 
+### HoldMapping
+
+> #### `carried_forward` <span class="object-type">boolean</span>
+>
+> Whether Crux treats the matched holds as the same holds (enough of them matched): their usage carries over to this photo. The matches are returned either way.
+>
+> #### `computed_at` <span class="object-type">string</span>
+>
+> When the holds were matched. Editing either photo's holds matches them again.
+>
+> #### `holds` <span class="object-type">[HoldMappingHold](#holdmappinghold)</span>
+>
+> Every hold on this photo, with the ID of the same hold on the previous photo when it was matched.
+>
+> #### `match_rate` <span class="object-type">number</span>
+>
+> How many of the holds matched, from 0 to 1: the matched holds divided by the hold count of whichever photo has fewer. A low rate usually means the wall was reset.
+>
+> #### `photo_id` <span class="object-type">integer</span>
+>
+> The wall photo.
+>
+> #### `previous_photo_id` <span class="object-type">integer</span>
+>
+> The wall's photo before this one, whose holds these are matched to.
+>
+> #### `removed_hold_ids` <span class="object-type">array</span>
+>
+> IDs of holds on the previous photo that weren't matched to any hold on this one (removed, or not recognised).
+>
+
+### HoldMappingHold
+
+> #### `id` <span class="object-type">string</span>
+>
+> The hold's ID on this photo, as in the photo's holds.
+>
+> #### `previous_id` <span class="object-type">nullable string</span>
+>
+> The same hold's ID on the previous photo. Null when the hold wasn't matched to one there (it's new, or wasn't recognised).
+>
+
 ### Send
 
 > #### `id` <span class="object-type">integer</span>
@@ -1117,9 +1178,25 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > The height of the photo in pixels. Hold masks on this photo are in these pixels.
 >
+> #### `holds_carried_forward` <span class="object-type">nullable boolean</span>
+>
+> Whether Crux treats this photo's holds as the same holds as on `previous_photo_id` (enough of them matched): their usage carries over, and climbs set on the previous photo count on the holds they match here. Null without a previous photo.
+>
 > #### `image_url` <span class="object-type">string</span>
 >
 > The URL of the photo. The image may be smaller than `width` x `height`, but it has the same shape, so scale hold masks by the image's width divided by `width`.
+>
+> #### `match_rate` <span class="object-type">nullable number</span>
+>
+> How many of the holds matched between `previous_photo_id` and this photo, from 0 to 1: the matched holds divided by the hold count of whichever photo has fewer. A low rate usually means the wall was reset. Null without a previous photo.
+>
+> #### `next_photo_id` <span class="object-type">nullable integer</span>
+>
+> The photo that replaced this one on the wall, when Crux has matched this photo's holds to it. Null if there is none.
+>
+> #### `previous_photo_id` <span class="object-type">nullable integer</span>
+>
+> The wall's photo before this one, when Crux has matched its holds to this photo's (see `GET /api/v1/wall_photos/:id/hold_mapping`). Follow it back to see the wall's earlier photos. Null if there is none.
 >
 > #### `wall_id` <span class="object-type">nullable integer</span>
 >
@@ -1152,9 +1229,25 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > The holds found on the photo. Empty if the photo was never scanned for holds.
 >
+> #### `holds_carried_forward` <span class="object-type">nullable boolean</span>
+>
+> Whether Crux treats this photo's holds as the same holds as on `previous_photo_id` (enough of them matched): their usage carries over, and climbs set on the previous photo count on the holds they match here. Null without a previous photo.
+>
 > #### `image_url` <span class="object-type">string</span>
 >
 > The URL of the photo. The image may be smaller than `width` x `height`, but it has the same shape, so scale hold masks by the image's width divided by `width`.
+>
+> #### `match_rate` <span class="object-type">nullable number</span>
+>
+> How many of the holds matched between `previous_photo_id` and this photo, from 0 to 1: the matched holds divided by the hold count of whichever photo has fewer. A low rate usually means the wall was reset. Null without a previous photo.
+>
+> #### `next_photo_id` <span class="object-type">nullable integer</span>
+>
+> The photo that replaced this one on the wall, when Crux has matched this photo's holds to it. Null if there is none.
+>
+> #### `previous_photo_id` <span class="object-type">nullable integer</span>
+>
+> The wall's photo before this one, when Crux has matched its holds to this photo's (see `GET /api/v1/wall_photos/:id/hold_mapping`). Follow it back to see the wall's earlier photos. Null if there is none.
 >
 > #### `wall_id` <span class="object-type">nullable integer</span>
 >
