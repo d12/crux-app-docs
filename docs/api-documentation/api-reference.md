@@ -309,6 +309,10 @@ This document is a reference for the Crux API. It contains information about the
 > 
 > The climb's foot rules, as returned in a climb's `foot_rules` (for example `feet_follow_hands`). Leave it out for the standard rules. This parameter is optional.
 > 
+> ##### `no_matching`
+> 
+> Set to `true` if hands can't match on any hold except the start and finish holds. Defaults to `false`. This parameter is optional.
+> 
 > ##### `angle`
 > 
 > The wall angle the climb is set at, in degrees, for walls with an adjustable angle. This parameter is optional.
@@ -647,6 +651,10 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > The name of the climb.
 >
+> #### `no_matching` <span class="object-type">boolean</span>
+>
+> Whether the climb is "no matching": hands can't match on any hold except the start and finish holds.
+>
 > #### `number_of_comments` <span class="object-type">integer</span>
 >
 > The number of comments on this climb.
@@ -729,6 +737,10 @@ These are the definitions of the objects returned by the API. Some objects have 
 > #### `name` <span class="object-type">string</span>
 >
 > The name of the climb.
+>
+> #### `no_matching` <span class="object-type">boolean</span>
+>
+> Whether the climb is "no matching": hands can't match on any hold except the start and finish holds.
 >
 > #### `number_of_comments` <span class="object-type">integer</span>
 >
