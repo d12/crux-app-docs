@@ -311,7 +311,7 @@ This document is a reference for the Crux API. It contains information about the
 > 
 > ##### `no_matching`
 > 
-> Set to `true` if hands can't match on any hold except the start and finish holds. Defaults to `false`. This parameter is optional.
+> Set to `true` if hands can't match on any hold except the start and finish holds, or `false` if they can. Defaults to the gym's setting for new climbs (usually `false`). This parameter is optional.
 > 
 > ##### `angle`
 > 
