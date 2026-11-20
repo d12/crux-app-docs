@@ -1086,6 +1086,10 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > An ID that uniquely identifies the resource across Crux.
 >
+> #### `attempts` <span class="object-type">nullable integer</span>
+>
+> How many attempts the send took, as the climber logged it (a flash is 1). Null when they didn't log it, which includes every repeat send from before repeats' attempts could be logged (November 2026).
+>
 > #### `created_at` <span class="object-type">string</span>
 >
 > Timestamp when the send was recorded.
@@ -1108,6 +1112,10 @@ These are the definitions of the objects returned by the API. Some objects have 
 > #### `id` <span class="object-type">integer</span>
 >
 > An ID that uniquely identifies the resource across Crux.
+>
+> #### `attempts` <span class="object-type">nullable integer</span>
+>
+> How many attempts the send took, as the climber logged it (a flash is 1). Null when they didn't log it, which includes every repeat send from before repeats' attempts could be logged (November 2026).
 >
 > #### `created_at` <span class="object-type">string</span>
 >
