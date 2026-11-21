@@ -85,7 +85,7 @@ This document is a reference for the Crux API. It contains information about the
 > 
 > #### Authorization:
 > 
-> User must own the list or be a gym admin of a gym-owned list.
+> User must own the list or be a gym admin of a gym-owned list. A gym admin editing the gym's list needs the gym's plan to include the public API (Crux Pro); otherwise returns a 403.
 > 
 > #### Response:
 > 
@@ -108,7 +108,7 @@ This document is a reference for the Crux API. It contains information about the
 > 
 > #### Authorization:
 > 
-> User must own the list or be a gym admin of a gym-owned list.
+> User must own the list or be a gym admin of a gym-owned list. A gym admin editing the gym's list needs the gym's plan to include the public API (Crux Pro); otherwise returns a 403.
 > 
 > #### Response:
 > 
@@ -331,7 +331,7 @@ This document is a reference for the Crux API. It contains information about the
 > 
 > #### Authorization:
 > 
-> Any authenticated user can create custom climbs; the climb is posted as you. Official climbs can only be created by the gym's admins. Free-tier gyms limit how many climbs you can create, the same as in the app.
+> Any authenticated user can create custom climbs; the climb is posted as you. Official climbs can only be created by the gym's admins, and only when the gym's plan includes the public API (Crux Pro; otherwise a 403). Free-tier gyms limit how many climbs you can create, the same as in the app. A gym that switched off "Climbers can post climbs on photos" only takes climbers' climbs on its spray walls.
 > 
 > #### Response:
 > 
@@ -407,7 +407,7 @@ This document is a reference for the Crux API. It contains information about the
 > 
 > #### Authorization:
 > 
-> Restricted to gym admins.
+> Restricted to gym admins. The gym's plan must include the public API and webhooks (Crux Pro); otherwise returns a 403.
 > 
 > #### Response:
 > 
