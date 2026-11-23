@@ -8,7 +8,7 @@ sidebar_position: 1
 
 Many newer climbers avoid **spray walls** because they feel confusing, the holds are challenging, and the walls are often steep.
 
-Crux makes **setting accessible** by allowing climbers to set **anywhere in the gym**, not just on spray walls. This means:
+Crux makes **setting accessible** by allowing climbers to set **anywhere in the gym**, not just on spray walls (on the Standard and Pro plans). This means:
 - Climbers can **set on walls they feel comfortable climbing on**.
 - Climbers can **create problems appropriate for their level**.
 
@@ -18,7 +18,7 @@ Crux makes **setting accessible** by allowing climbers to set **anywhere in the 
 
 ## Crux Is the Most User-Friendly Climbing App
 
-Crux is **rated 4.9 stars** on both the iOS App Store and Google Play Store—higher than any other indoor climbing app.
+Crux is **one of the highest-rated climbing apps** on the iOS App Store and Google Play Store.
 
 This is because **we designed Crux for real climbers**. We worked with **gym staff, setters, and climbers of all levels** to create an app that is:
 - **Easy to use**
@@ -26,11 +26,9 @@ This is because **we designed Crux for real climbers**. We worked with **gym sta
 - **Fun**
 
 ### Setting a Climb Is as Easy as 1-2-3:
-1. **Take a photo** of the wall.
+1. **Take a photo** of the wall (Crux outlines every hold in about a second).
 2. **Tap on the holds** you want to use.
-3. **Save the climb** to the gym.
-
-<img src="/img/app-ratings.png" alt="Crux is rated a 4.9 on both the iOS App Store and the Google Play Store" width="600px" />
+3. **Post the climb** to the gym.
 
 ---
 
@@ -69,7 +67,7 @@ This happens because most apps require **gym staff to manually update** the wall
 
 ### How Crux Fixes This:
 - Climbers **take their own photos** and **scan them instantly**.
-- No work is required by gym staff.
+- Updating a spray wall after a reset takes one photo, and it's free.
 - The app is **always up to date** with the latest climbs.
 
 This **frees up your staff** to focus on **running your gym**, while Crux keeps serving your community.
@@ -78,7 +76,7 @@ This **frees up your staff** to focus on **running your gym**, while Crux keeps 
 
 ## Crux Offers a Unique Communication Channel
 
-Crux is the **only** climbing app that allows gyms to send **free-form push notifications** directly to climbers.
+Crux lets gyms send **free-form push notifications** directly to their climbers.
 
 ### Use push notifications to:
 - Announce **sales, events, and new sets**.

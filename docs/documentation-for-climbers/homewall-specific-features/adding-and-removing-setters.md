@@ -6,10 +6,10 @@ sidebar_label: Adding and Removing Setters
 # Adding and Removing Setters in Homewalls
 
 :::info
-This feature **only applies to homewalls**. In **commercial gyms**, anyone can set climbs.
+This feature **only applies to homewalls**. In commercial gyms, setting permissions depend on the gym and its plan.
 :::
 
-By default, **only the homewall creator** can set climbs. Other climbers can view the wall but will see the **"Add Climb"** button grayed out.
+By default, **only the homewall creator** can set climbs. Other climbers can view the wall and its climbs; if they tap the **"+"** button to set a climb, Crux tells them to ask the wall admin to add them as a setter.
 
 ---
 
@@ -18,9 +18,13 @@ By default, **only the homewall creator** can set climbs. Other climbers can vie
 To **add or remove setters**:
 1. Go to your **homewall page**.
 2. Tap **"Settings"**.
-3. Select **"Setters."**
-4. Search for a climber by name and **add them as a setter**.
-5. To **remove a setter**, tap the **garbage can icon** next to their name.
+3. Under **Home wall**, select **"Setters"**.
+4. Tap **"Add a setter"**, search for a climber by name and tap **"Add setter"**.
+5. To **remove a setter**, tap the **trash icon** next to their name.
+
+:::tip
+Can't find someone? Make sure they've joined Crux and set a name in their profile settings.
+:::
 
 <img src="/img/setters.png" alt="Adding and removing setters on the Crux Climbing App." class="screenshot" />
 
@@ -28,16 +32,18 @@ To **add or remove setters**:
 
 ## Admin Permission
 
-Setters can have **admin permissions**, which allow them to:
-- **Edit gym info**
+Tick the **"Admin"** box next to a setter to give them access to the **wall settings**, which lets them:
+- **Edit the wall's info**
 - **Add or remove setters**
+
+---
+
+## Letting Anyone Set
+
+Want everyone to be able to set on your wall? Go to **Settings → Wall info** and turn on **"Allow anyone to set climbs"**.
 
 ---
 
 ## Setter Limits
 
-By default, homewalls have a **limit of 2 setters** to prevent abuse.
-
-To increase your setter limit:
-- **Email us** at [contact@cruxapp.ca](mailto:contact@cruxapp.ca) to raise the limit to **5 setters**.
-- **Support Crux on Patreon** for **10 or unlimited setters** (depending on the tier). Learn more on [our Patreon page](https://www.patreon.com/crux_climbing_app).
+Homewalls can have **unlimited setters**.

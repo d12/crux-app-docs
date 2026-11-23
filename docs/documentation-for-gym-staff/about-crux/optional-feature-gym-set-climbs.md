@@ -5,46 +5,50 @@ sidebar_position: 3
 # (Optional Feature) Gym-Set Climbs
 
 :::info
-This feature is **not enabled by default**. To enable it, please contact Crux at [nat@cruxapp.ca](mailto:nat@cruxapp.ca).
+Official gym-set climbs are part of **Crux Pro** and are **off by default**. A gym admin turns them on in **Gym Settings → "Official climbs"**. (Gyms on older plans that include official climbs can [contact us](/docs/documentation-for-gym-staff/about-crux/contact-the-crux-team.md) to turn them on.)
 :::
 
-Crux offers an optional feature for gyms to **manage official gym-set climbs**.
+Crux offers an optional feature for gyms to **post their official, staff-set climbs**.
 
 This allows gyms to:
 - Keep **track of set climbs**.
 - Let climbers **browse official climbs, mark sends, and track progress**.
 - Boost climber **engagement and motivation**.
 
-<img src="/img/official-climb.png" alt="An official gym-set climb at Coyote Rock Gym on the Crux Climbing App" class="screenshot" />
+<img src="/img/official-climb.png" alt="An official gym-set climb on the Crux Climbing App" class="screenshot" />
 
 ---
 
 ## How It Works
 
-When **gym-set climbs** are enabled, your **gym’s climb directory** will have **two tabs**:
-- **Custom Climbs** – Climbs set by your community.
-- **Official Climbs** – Climbs set by gym staff. These are "official" climbs that follow one color of holds and may be graded.
+When **official climbs** are turned on, your gym page has two climb buttons:
+- **"Official climbs"** – Climbs set by gym staff. These follow one color of holds and are graded by your setters.
+- **"Custom climbs"** – Climbs set by your community.
 
-### Setting Official Climbs
-- **Only gym staff** can set official climbs.
-- **To set official climbs**,
-  1. Open the **Official Climbs tab**.
-  2. Tap the "..." button on the top right.
-  3. Tap the "New set" button.
-  4. Follow the instructions to set new climbs.
+Climbers can **filter official climbs** by **area**, **grade** and **hold color**, or use **"Fast find"** to jump to a climb they see on the wall.
+
+### Who Can Post Official Climbs
+- On **Pro**, staff members with the **Admin** or **Setter** role. (See [Staff Members](/docs/documentation-for-gym-staff/managing-your-gym-on-crux/gym-settings-and-staff-members.md#staff-members).)
+- On older plans, any staff member.
+
+### Posting a New Set
+1. Open **"Official climbs"** from the gym page.
+2. Tap the **⋮** button in the top right.
+3. Under **"Gym Admin"**, tap **"New Set"**.
+4. Follow the steps to post your new climbs.
 
 ---
 
 ## New-Set Notifications
 
-Each time you **post a new set** in Crux, climbers will **automatically receive a push notification**.
+When you **post a new set** in Crux, climbers who **follow your gym** (with the **"Follow"** button on the gym page) **automatically receive a push notification**.
 
 This allows climbers to:
-- **See what’s new** before arriving at the gym.
+- **See what's new** before arriving at the gym.
 - **Plan their session** in advance.
 - **Get excited** to try fresh climbs!
 
-New-set notifications will go out within an hour of you posting a new set.
+The notification goes out about **30 minutes after you finish posting** a set of **5 or more climbs**, and at most once a day.
 
 ---
 
@@ -52,38 +56,12 @@ New-set notifications will go out within an hour of you posting a new set.
 
 For **custom climbs**, climbers highlight each hold in the **image editor**.
 
-For **official gym-set climbs**, annotation is **optional** since:
+For **official climbs**, marking holds is **optional**, since:
 - Climbs follow a **single color**.
-- You can **specify the hold color** instead of marking holds manually.
-
-Climbers can **filter official climbs** by:
-- **Gym area**
-- **Difficulty**
-- **Hold color**
+- You can **choose the hold colors** instead of marking holds manually.
 
 ---
 
 ## Gym Analytics
 
-Enabling **official climbs** gives your gym access to **detailed analytics** about climber activity and set performance.
-
-### Insights Include:
-- **Which climbs are popular or underused**.
-- **Which climbs may be misgraded** based on user feedback.
-- **How new sets compare to past sets**.
-
-The **analytics dashboard** provides a range of **graphs and insights** to help gyms optimize their setting.
-
-<img src="/img/officials-analytics.png" alt="The official climbs gym analytics page for a gym on the Crux Climbing App." />
-
----
-
-### Tracking Climb Performance
-
-The **Climbs Tab** shows a list of **all climbs set at your gym**.
-
-You can:
-- **Sort and filter climbs** by popularity or activity.
-- **Identify climbs that may be misgraded**.
-
-<img src="/img/official-climbs-analytics.png" alt="The official climbs analytics section, which shows how climbs are being climbed and which ones are misgraded." />
+Your gym's [analytics](/docs/documentation-for-gym-staff/managing-your-gym-on-crux/gym-analytics.md) show which climbs are popular or quiet and which may be **misgraded**, based on climbers' grade feedback.
