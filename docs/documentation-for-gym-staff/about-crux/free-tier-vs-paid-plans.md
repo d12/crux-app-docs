@@ -7,7 +7,7 @@ sidebar_position: 2
 Crux offers commercial gyms a **free tier** and **two paid plans**:
 - **Free tier** – A limited version of Crux that climbers can use without the gym's involvement.
 - **Standard** – The complete Crux experience for your climbers and staff, with unlimited walls.
-- **Pro** – Everything in Standard, plus staff roles, official gym-set climbs, hold heatmaps, and the Crux API and webhooks.
+- **Pro** – Everything in Standard, plus staff roles, official gym-set climbs, competitions, hold heatmaps, and the Crux API and webhooks.
 
 Both paid plans are priced **per gym**, with **unlimited walls, climbers and climbs**. Every new gym starts with a **free 14-day trial of Pro**, no card needed. See [Billing and Pricing](/docs/documentation-for-gym-staff/about-crux/billing-and-pricing.md) for prices.
 
@@ -44,6 +44,7 @@ Below is a comparison of what each plan offers:
 | Send **push notifications** for sales, announcements, and events | ❌ | ✅ | ✅ |
 | Staff roles | Admin and staff | Admins only | Admin, staff and setter |
 | [Post official gym-set climbs](/docs/documentation-for-gym-staff/about-crux/optional-feature-gym-set-climbs.md) | ❌ | ❌ | ✅ |
+| [Run competitions](/docs/documentation-for-gym-staff/competitions/running-a-competition.md) | ❌ | ❌ | ✅ |
 | [Crux API and gym webhooks](/docs/documentation-for-gym-staff/managing-your-gym-on-crux/webhooks-api-and-led-boards.md) | ❌ | ❌ | ✅ |
 
 Standard and Pro also come with [gym analytics](/docs/documentation-for-gym-staff/managing-your-gym-on-crux/gym-analytics.md), [posters and social media images](/docs/documentation-for-gym-staff/managing-your-gym-on-crux/posters-and-social-media.md) for your gym, [imports from Stōkt and Retroflash](/docs/documentation-for-gym-staff/managing-your-gym-on-crux/importing-from-another-app.md), and control over how climbs look in your gym.
@@ -52,7 +53,7 @@ Standard and Pro also come with [gym analytics](/docs/documentation-for-gym-staf
 
 ## Older Plans
 
-Gyms that joined before November 2026 may be on the **Spray wall** or **Whole gym** plan. These plans are no longer offered to new gyms, but gyms on them **keep their plan, price and features**. Spray wall gyms can still add spray walls from the walls page. Want to switch to Standard or Pro? [Contact us](/docs/documentation-for-gym-staff/about-crux/contact-the-crux-team.md).
+Gyms that joined before November 2026 may be on the **Spray wall** or **Whole gym** plan. These plans are no longer offered to new gyms, but gyms on them **keep their plan, price and features** (including competitions). Spray wall gyms can still add spray walls from the walls page. Want to switch to Standard or Pro? [Contact us](/docs/documentation-for-gym-staff/about-crux/contact-the-crux-team.md).
 
 ---
 
