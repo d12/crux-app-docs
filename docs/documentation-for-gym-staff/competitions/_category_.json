@@ -1,0 +1,9 @@
+{
+  "label": "Competitions",
+  "position": 3.5,
+  "link": {
+    "type": "generated-index",
+    "slug": "/documentation-for-gym-staff/competitions",
+    "description": "Run bouldering competitions in Crux: climbers score themselves on their phones and the leaderboard updates live."
+  }
+}
