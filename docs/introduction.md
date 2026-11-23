@@ -20,15 +20,14 @@ Crux is a **climbing app** that lets climbers create, share, and track custom cl
 
 ### Why Crux?
 
-The **magic** behind Crux is our **instant hold recognition technology**. Just snap a photo of a wall, tap on the holds, and your climb is ready to share—no complicated forms, no waiting, and no hidden costs. At climbing gyms, this means you can **set routes anywhere** in the gym—a feature **unique to Crux**.
+The **magic** behind Crux is our **instant hold recognition**. Photograph your wall and Crux outlines every hold on it in about a second. Tap the holds you want, and your climb is ready to share—no complicated forms and no waiting. At gyms on a Crux plan, climbers can **set climbs on any wall in the gym**, not just on a spray wall.
 
 ## Who's Using Crux?
 
 Crux is trusted by:
-- **30,000+ climbers** from over 50 countries
-- **100+ commercial climbing gyms**
-- **Thousands of homewall owners**
-- **Over 100,000 climbs set** (and counting!)
+- **Tens of thousands of climbers** in **30+ countries**
+- **200+ partnered climbing gyms**, plus home walls all over the world
+- **133,000+ climbs set** (and counting!)
 
 ## How to Use This Documentation
 

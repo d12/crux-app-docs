@@ -7,28 +7,32 @@ sidebar_position: 10
 Crux is available in the following languages:
 
 - **English**
-- **French** (_Français_)
 - **Spanish** (_Español_)
-- **Italian** (_Italiano_)
-- **Dutch** (_Nederlands_)
+- **French** (_Français_)
 - **Portuguese** (_Português_)
+- **Dutch** (_Nederlands_)
+- **Italian** (_Italiano_) – beta
+- **Finnish** (_Suomi_) – beta
+- **Czech** (_Čeština_) – beta
+- **Vietnamese** (_Tiếng Việt_) – beta
 
 ---
 
 ## Changing Your Language
 
-When you first log in to Crux, you'll be asked to select a language.
+Crux starts in your phone's language when it's one of the above. You can also pick a language from the **"Language"** switch on the sign-in screen.
 
-You can change your language preference at any time:
-1. Go to your **Profile Settings**.
-2. Select **"Change your language."**
+To change your language at any time:
+1. Go to your **profile** and tap the **settings cog**.
+2. Under **Account**, select **"Change your language."**
+3. Pick a language.
 
 <img src="/img/languages.png" alt="Selecting a language to use on the Crux Climbing App." class="screenshot" />
 
 ---
 
-## Additional Languages
+## Translation Problems and New Languages
 
-Want to help translate Crux into another language? We'd love your support!
+Spotted a translation that's wrong or awkward? Tap **"Report a translations issue"** in your profile settings.
 
-Please reach out to us at [contact@cruxapp.ca](mailto:contact@cruxapp.ca).
+Want to help translate Crux into another language? We'd love your support! Please reach out to us at [contact@cruxapp.ca](mailto:contact@cruxapp.ca).

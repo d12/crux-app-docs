@@ -39,9 +39,20 @@ Every contribution makes a difference, and we’re incredibly grateful for every
 
 [Visit our Patreon page](https://www.patreon.com/crux_climbing_app) to explore our **membership tiers**.
 
-Patrons get access to **exclusive benefits**, including:
-- **Early access to new features**
-- **Dark mode**
-- **Stickers and other perks**
+Patrons get access to **exclusive benefits**, depending on their tier:
+- **Limestone** – A **"Patreon Supporter" badge** in the app, your name on the [Supporters page](https://www.cruxapp.ca/app/supporters), behind-the-scenes posts, a Patreon-only Discord channel, and [adjustable angle walls](/docs/documentation-for-climbers/homewall-specific-features/adustable-angle-walls.md) for your homewall.
+- **Granite** – Everything in Limestone, plus **dark mode** and **two extra app themes**.
+- **Sandstone** – Everything in Granite, plus your name at the **top of the Supporters page**.
+
+---
+
+## Connecting Patreon to Crux
+
+To unlock your perks in the app:
+1. Go to your **profile** and tap the **settings cog**.
+2. Open **"Patreon settings"**.
+3. Tap **"Connect your Patreon account"**.
+
+Your perks turn on automatically. From the same page you can choose whether to **display your Patreon badge** and whether to **add yourself to the Supporters page**.
 
 Thank you for supporting Crux! 💙

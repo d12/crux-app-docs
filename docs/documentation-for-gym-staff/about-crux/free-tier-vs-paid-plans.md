@@ -4,45 +4,58 @@ sidebar_position: 2
 
 # Free Tier vs. Paid Plans
 
-Crux offers **three plans** for commercial gyms:
-- **Free Tier** – A limited version of Crux that climbers can use without gym involvement.
-- **Spray wall plan** – Unlocks the complete Crux experience for both climbers and gym staff. Climbs can be set on specific spray walls.
-- **Whole gym plan** - Unlocks the complete Crux experience for both climbers and gym staff. Climbs can be set on any wall in the gym.
+Crux offers commercial gyms a **free tier** and **two paid plans**:
+- **Free tier** – A limited version of Crux that climbers can use without the gym's involvement.
+- **Standard** – The complete Crux experience for your climbers and staff, with unlimited walls.
+- **Pro** – Everything in Standard, plus staff roles, official gym-set climbs, hold heatmaps, and the Crux API and webhooks.
 
-Below is a comparison of what each tier offers:
+Both paid plans are priced **per gym**, with **unlimited walls, climbers and climbs**. Every new gym starts with a **free 14-day trial of Pro**, no card needed. See [Billing and Pricing](/docs/documentation-for-gym-staff/about-crux/billing-and-pricing.md) for prices.
+
+Below is a comparison of what each plan offers:
 
 ---
 
 ## Features for Climbers
 
-| Feature | Free | Spray wall plan | Whole gym plan |
+| Feature | Free tier | Standard | Pro |
 | --- | --- | --- | --- |
-| Set custom climbs | **2 per day** | **Unlimited, on spray walls** | **Unlimited, on any wall** |
-| Create private climb lists | ✅ | ✅ | ✅ |
-| Browse through custom climbs set at the gym | ✅ | ✅ | ✅ |
-| Record sends | ✅ | ✅ |  ✅ |
+| Set custom climbs | **2 per day**, on the gym's walls | **Unlimited, on any wall** | **Unlimited, on any wall** |
+| Browse custom climbs set at the gym | ✅ | ✅ | ✅ |
+| Record sends and attempts | ✅ | ✅ | ✅ |
+| Set circuit climbs | ❌ | ✅ | ✅ |
 | Access climber stats and trends | ✅ | ✅ | ✅ |
-| Post climbing videos | ❌ | ✅ | ✅ |
-| Organize climbs by areas of the gym | ❌ | ✅ | ✅ |
-| Create public climb lists | ❌ | ✅ | ✅ |
+| Create private climb lists | ✅ | ✅ | ✅ |
+| Post beta videos | ❌ | ✅ | ✅ |
 | Compete in gym leaderboards | ❌ | ✅ | ✅ |
-| [Browse through gym-set climbs](/docs/documentation-for-gym-staff/about-crux/optional-feature-gym-set-climbs.md) | ❌ | ❌ | ✅ |
+| Browse public and staff-picked climb lists | ❌ | ✅ | ✅ |
+| Organize climbs by walls and areas | Up to 2 walls | ✅ | ✅ |
+| Find climbs by hold with the hold heatmap | ❌ | ❌ | ✅ |
+| [Browse gym-set official climbs](/docs/documentation-for-gym-staff/about-crux/optional-feature-gym-set-climbs.md) | ❌ | ❌ | ✅ |
 
 ---
 
 ## Features for Gyms
 
-| Feature | Free | Spray wall tier | Whole gym tier |
+| Feature | Free tier | Standard | Pro |
 | --- | --- | --- | --- |
-| Offer climbers the full version of Crux for your climbers, without upgrade banners | ❌ | ✅ | ✅ |
-| Receive **posters, stickers, and promotional materials** | ❌ | ✅ | ✅ |
-| Personalize your gym page with a **banner, logo, and description** | ❌ | ✅ | ✅ |
+| Offer climbers the full version of Crux, without upgrade banners | ❌ | ✅ | ✅ |
+| Unlimited spray walls, plus climbs on photos of any wall | ❌ | ✅ | ✅ |
+| Free, unlimited wall resets | ✅ | ✅ | ✅ |
 | Send **push notifications** for sales, announcements, and events | ❌ | ✅ | ✅ |
-| Moderate climber content on Crux | ❌ | ✅ | ✅ |
-| Get **priority email support** | ❌ | ✅ | ✅ |
-| Submit **priority feature requests** | ❌ | ✅ | ✅ |
-| [Post gym-set climbs on Crux](/docs/documentation-for-gym-staff/about-crux/optional-feature-gym-set-climbs.md) | ❌ | ❌ | ✅ |
+| Staff roles | Admin and staff | Admins only | Admin, staff and setter |
+| [Post official gym-set climbs](/docs/documentation-for-gym-staff/about-crux/optional-feature-gym-set-climbs.md) | ❌ | ❌ | ✅ |
+| [Crux API and gym webhooks](/docs/documentation-for-gym-staff/managing-your-gym-on-crux/webhooks-api-and-led-boards.md) | ❌ | ❌ | ✅ |
 
-## Pricing
+Standard and Pro also come with [gym analytics](/docs/documentation-for-gym-staff/managing-your-gym-on-crux/gym-analytics.md), [posters and social media images](/docs/documentation-for-gym-staff/managing-your-gym-on-crux/posters-and-social-media.md) for your gym, [imports from Stōkt and Retroflash](/docs/documentation-for-gym-staff/managing-your-gym-on-crux/importing-from-another-app.md), and control over how climbs look in your gym.
 
-We offer regional pricing for gyms in different countries. Please contact us at [nat@cruxapp.ca](mailto:nat@cruxapp.ca) for information on pricing.
+---
+
+## Older Plans
+
+Gyms that joined before November 2026 may be on the **Spray wall** or **Whole gym** plan. These plans are no longer offered to new gyms, but gyms on them **keep their plan, price and features**. Spray wall gyms can still add spray walls from the walls page. Want to switch to Standard or Pro? [Contact us](/docs/documentation-for-gym-staff/about-crux/contact-the-crux-team.md).
+
+---
+
+## When a Trial Ends
+
+If a trial ends without the gym choosing a plan, the gym moves to the **free tier**. Nothing is deleted: the two walls with the most climbs stay up, and other walls are hidden until the gym pays.

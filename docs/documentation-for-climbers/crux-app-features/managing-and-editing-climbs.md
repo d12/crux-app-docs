@@ -5,19 +5,19 @@ sidebar_position: 2
 # Managing and Editing Climbs
 
 :::info
-Only **gym staff** and the **original author** of a climb can edit it.
+Only **gym staff** and the **setter** of a custom climb can edit it.
 :::
 
-This guide will walk you through how to edit, update, and unset climbs in Crux.
+This guide walks you through how to edit, archive, and otherwise manage climbs in Crux. These options are under **"Climb admin"** in the climb's **⋮** menu (top right of the climb page).
 
 ---
 
 ## Editing Climbs
 
 To edit a climb:
-1. Tap the **"..."** in the top-right corner of the climb.
+1. Tap the **⋮** in the top-right corner of the climb.
 2. Select **"Edit climb."**
-3. Make changes to the climb’s **attributes** or **image**.
+3. Make changes to the climb's **details** or **image**, then tap **"Save climb"**.
 
 ### Editing the Climb Image
 
@@ -28,19 +28,35 @@ To edit a climb:
 #### Replacing the Image
 If you need a completely new image (e.g., a **wider** or **higher-quality** photo):
 1. Tap the **"X"** in the top-right of the current image.
-2. Upload a new photo.
+2. Choose a new photo.
 
 <img src="/img/editing-climb-image.png" alt="Editing a climb image on the Crux Climbing App" class="screenshot" />
 
 ---
 
-## Unsetting a Climb
+## Archiving a Climb
 
-To **unset** (remove) a climb:
-1. Tap the **"..."** in the top-right corner of the climb.
-2. Select **"Mark as unset."**
-3. The climb will be removed from the **climb directory** unless you enable the **"Show unset climbs"** filter.
+When a climb comes off the wall, **archive** it:
+1. Tap the **⋮** in the top-right corner of the climb.
+2. Select **"Archive climb"** and confirm with **"Archive"**.
+3. The climb is hidden from the climb list unless you set the **Active status** filter to **"Archived"** or **"All climbs"**.
+
+Changed your mind? Open the climb and select **⋮ → "Restore climb"**.
 
 :::info
-**Unsetting does not delete climbs!** Climbers can still view their sent climbs in their session history.
+**Archiving doesn't delete climbs!** Sends, comments and ratings are kept, and climbers can still see their sends in their session history.
 :::
+
+---
+
+## Other Options
+
+Staff and setters also have, under **"Climb admin"**:
+- **"Make draft"** / **"Publish climb"** – Hide a climb while you work on it (only you can see drafts), then publish it. You can also tap **"Save draft"** when posting a new climb.
+- **"Delete climb"** – Removes the climb and everyone's sends of it. Prefer archiving.
+- **"Use new wall photo"** – Move the climb onto the wall's latest photo.
+
+Everyone can use these options in the **⋮** menu:
+- **"Duplicate"** – Start a new climb as a copy of this one.
+- **"Report an issue"** – Tell the gym's staff a climb is no longer on the wall, has a blurry or wrong photo, has the wrong grade or tags, or is a duplicate (at commercial gyms).
+- **"Undo recent send"** – Remove a send you just logged by mistake.
