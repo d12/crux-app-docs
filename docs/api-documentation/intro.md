@@ -13,11 +13,7 @@ All requests must be authenticated via a Bearer token. Please see the [authentic
 
 ## Rate Limiting
 
-The Crux API has a rate limit of 20 requests per minute. Please reach out if you require a higher rate limit.
-
-## Pagination
-
-There is no pagination at the moment.
+The Crux API has a rate limit of 600 requests per minute per API key. Please reach out if you require a higher rate limit.
 
 ## Versioning and Breaking Changes
 

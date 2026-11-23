@@ -12,6 +12,29 @@ This document is a reference for the Crux API. It contains information about the
 
 ## API Endpoints
 
+### `POST /api/v1/climbs/:id/comments`
+
+> Posts a comment on a climb, the same as commenting in the app: it shows in the climb's activity and notifies anyone it mentions and, on a custom climb, the climb's poster. Comments are text only; photos and videos aren't supported yet. Returns the new comment with a 201 status.
+> 
+> #### Parameters:
+> 
+> ##### `id`
+> 
+> The ID of the climb to comment on. This parameter is required.
+> 
+> ##### `body`
+> 
+> The text of the comment, up to 2500 characters. Mention a user with `@[username:ID]`, as the app does. This parameter is required.
+> 
+> #### Authorization:
+> 
+> Any authenticated user; the comment is posted as you. Climbs you can't see (other people's drafts) return a 404.
+> 
+> #### Response:
+> 
+> [ClimbComment](#climbcomment)
+> 
+
 ### `GET /api/v1/gyms/:gym_slug/climb_lists`
 
 > Returns all public climb lists for a specific gym.
@@ -117,7 +140,7 @@ This document is a reference for the Crux API. It contains information about the
 
 ### `GET /api/v1/climbs/:id`
 
-> Returns details for a specific climb.
+> Returns details for a specific climb, including drafts (which the gym climb lists leave out), so a climb returned as a wall's active climb can always be fetched.
 > 
 > #### Parameters:
 > 
@@ -182,7 +205,7 @@ This document is a reference for the Crux API. It contains information about the
 
 ### `GET /api/v1/climbs/:id/drawings`
 
-> Returns the draw-type modifications (freehand drawings) for a specific climb.
+> Returns the draw-type modifications (freehand drawings) for a specific climb, including drafts.
 > 
 > #### Parameters:
 > 
@@ -431,6 +454,33 @@ This document is a reference for the Crux API. It contains information about the
 > #### Response:
 > 
 > [Climb (full)](#climb-full)
+> 
+
+### `POST /api/v1/climbs/:id/sends`
+
+> Logs a send of a climb for you, the same as logging it in the app: it goes in your climb session at the climb's gym on `send_date` (created if needed) and triggers the `climb.sent` webhooks. A send of a climb you've already sent is a repeat. To import a climber's history, log their sends oldest first, so each climb's first send is the one that isn't a repeat. Returns the new send with a 201 status.
+> 
+> #### Parameters:
+> 
+> ##### `id`
+> 
+> The ID of the climb you sent. This parameter is required.
+> 
+> ##### `send_date`
+> 
+> The date you sent it on, in your own time zone (YYYY-MM-DD). Can be in the past, not in the future. This parameter is required.
+> 
+> ##### `attempts`
+> 
+> How many attempts the send took, from 1 (a flash) to 100. Defaults to the attempts you've already logged towards it in the app, or 1. This parameter is optional.
+> 
+> #### Authorization:
+> 
+> Any authenticated user; the send is logged as you. Climbs you can't see (other people's drafts) return a 404, and climbs in a competition, which are scored on the competition's scorecard, a 422.
+> 
+> #### Response:
+> 
+> [Send (full)](#send-full)
 > 
 
 ### `GET /api/v1/users/:user_id`
@@ -781,6 +831,29 @@ These are the definitions of the objects returned by the API. Some objects have 
 > #### `sends` <span class="object-type">array [Send](#send)</span>
 >
 > List of sends for this climb.
+>
+
+### ClimbComment
+
+> #### `id` <span class="object-type">integer</span>
+>
+> An ID that uniquely identifies the resource across Crux.
+>
+> #### `body` <span class="object-type">nullable string</span>
+>
+> The text of the comment.
+>
+> #### `climb_id` <span class="object-type">integer</span>
+>
+> The ID of the climb the comment is on.
+>
+> #### `created_at` <span class="object-type">string</span>
+>
+> Timestamp when the comment was posted.
+>
+> #### `user` <span class="object-type">[User](#user)</span>
+>
+> The user who posted the comment.
 >
 
 ### ClimbDrawing
