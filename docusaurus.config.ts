@@ -44,9 +44,18 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/d12/crux-app-docs/tree/main/',
+          // Each page's last git commit date. The sitemap's <lastmod> comes
+          // from it, which is what tells Google a page changed.
+          showLastUpdateTime: true,
           // sidebarCollapsible: false,
         },
         blog: false,
+        // Google ignores changefreq and priority; lastmod is the signal it uses.
+        sitemap: {
+          lastmod: 'date',
+          changefreq: null,
+          priority: null,
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
