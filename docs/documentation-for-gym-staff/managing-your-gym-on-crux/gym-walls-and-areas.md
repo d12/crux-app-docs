@@ -45,7 +45,7 @@ To add walls to your gym, open your gym's **Settings** and tap **"Climbing walls
 ## Updating a wall
 
 Added holds, or reset a wall? Tap the wall on the Gym Walls page, then choose what changed:
-- **Rename or change settings** – The wall's name (and angle, for adjustable walls).
+- **Rename or change settings** – The wall's name (and the angles it can be set to, for adjustable walls).
 - **Fix the hold outlines** – Remove false detections or outline missed holds.
 - **Add or move holds** – Take a new photo. Climbs stay up.
 - **Reset the wall** – Take a new photo. Current climbs are archived.

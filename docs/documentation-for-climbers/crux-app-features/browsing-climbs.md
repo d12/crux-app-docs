@@ -37,7 +37,6 @@ A small red dot on the filter icon reminds you when filters are on.
 
 You can **sort climbs** by:
 - **Area** – Groups climbs by wall or area (only at gyms with more than one).
-- **Angle** – Only for [adjustable walls](/docs/documentation-for-climbers/homewall-specific-features/adustable-angle-walls.md).
 - **Set date** – Shows the most recent climbs first.
 - **Grade** – Lists climbs from **easiest to hardest**.
 - **Rating** – Displays the **highest-rated** climbs first.
@@ -52,7 +51,7 @@ You can **filter climbs** by:
 - **Active status** – **Active** climbs (on the wall now), **Archived** climbs (taken down), or **All climbs**.
 - **Climbs with beta videos** – Show only climbs with **beta videos**.
 - **Area** – Filter by wall or area.
-- **Angle** – For adjustable walls.
+- **Angle** – On [adjustable walls](/docs/documentation-for-climbers/homewall-specific-features/adustable-angle-walls.md), shows climbs at one angle: grades, and the grade filter and sort, are each climb's grade at that angle.
 - **Grade** – Pick one or more grades.
 - **Tags** – Filter climbs by **tags** (e.g., "Slopey", "Dynamic").
 - **Hold color** – On a gym's official climbs.

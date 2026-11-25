@@ -224,7 +224,7 @@ This document is a reference for the Crux API. It contains information about the
 
 ### `POST /api/v1/climbs/:id/activate`
 
-> Sets a climb as the active climb on its wall. Only one climb can be active per gym, so any other active climb at the gym is deactivated. Triggers the `climb.activated` webhook, and `climb.deactivated` for any climb it replaces. Returns the activated climb.
+> Sets a climb as the active climb on its wall. Only one climb can be active per gym, so any other active climb at the gym is deactivated. The climb is deactivated automatically 2 hours after it was activated (activating it again restarts the 2 hours). Triggers the `climb.activated` webhook, and `climb.deactivated` for any climb it replaces and when it times out. Returns the activated climb.
 > 
 > #### Parameters:
 > 
@@ -338,7 +338,7 @@ This document is a reference for the Crux API. It contains information about the
 > 
 > ##### `angle`
 > 
-> The wall angle the climb is set at, in degrees, for walls with an adjustable angle. This parameter is optional.
+> The wall angle the climb is set (and graded) at, in positive degrees past vertical: 0 is vertical, 40 is a 40° overhang. For walls with an adjustable angle; use one of the angles the wall supports (between its `minimum_angle` and `maximum_angle`). Climbers can then climb it at any of the wall's angles. This parameter is optional.
 > 
 > ##### `draft`
 > 
@@ -659,7 +659,7 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > #### `angle` <span class="object-type">nullable integer</span>
 >
-> The angle this climb was set at. Only for climbs on adjustable walls.
+> The wall angle this climb was set (and graded) at, in positive degrees past vertical: 0 is vertical, 40 is a 40° overhang. The climb can be climbed at any of its wall's angles (see the wall's `minimum_angle` and `maximum_angle`). Only meaningful for climbs on walls with an adjustable angle; null when the climb wasn't set at an angle.
 >
 > #### `color` <span class="object-type">nullable string</span>
 >
@@ -734,7 +734,7 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > #### `angle` <span class="object-type">nullable integer</span>
 >
-> The angle this climb was set at. Only for climbs on adjustable walls.
+> The wall angle this climb was set (and graded) at, in positive degrees past vertical: 0 is vertical, 40 is a 40° overhang. The climb can be climbed at any of its wall's angles (see the wall's `minimum_angle` and `maximum_angle`). Only meaningful for climbs on walls with an adjustable angle; null when the climb wasn't set at an angle.
 >
 > #### `color` <span class="object-type">nullable string</span>
 >
@@ -1064,7 +1064,7 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > #### `angle_adjustable` <span class="object-type">boolean</span>
 >
-> Whether the wall has an adjustable angle.
+> Whether the wall's angle can be adjusted (for example a board on a hinge). An adjustable wall supports a chosen set of angles from `minimum_angle` to `maximum_angle`, and its climbs can be climbed at any of them.
 >
 > #### `created_at` <span class="object-type">string</span>
 >
@@ -1092,11 +1092,11 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > #### `maximum_angle` <span class="object-type">nullable integer</span>
 >
-> Maximum wall angle in degrees.
+> The highest angle the wall can be set to, in positive degrees past vertical: 0 is vertical, 40 is a 40° overhang. Only meaningful when `angle_adjustable` is true; null when no range is set.
 >
 > #### `minimum_angle` <span class="object-type">nullable integer</span>
 >
-> Minimum wall angle in degrees.
+> The lowest angle the wall can be set to, in positive degrees past vertical: 0 is vertical, 40 is a 40° overhang. Only meaningful when `angle_adjustable` is true; null when no range is set.
 >
 > #### `name` <span class="object-type">string</span>
 >
