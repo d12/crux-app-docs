@@ -1,5 +1,9 @@
 require 'json'
 
+# The JSON and Markdown are UTF-8 (degree signs, curly quotes); don't depend on the shell's locale.
+Encoding.default_external = Encoding::UTF_8
+Encoding.default_internal = Encoding::UTF_8
+
 def blueprint_object_to_string(blueprint_object)
   blueprint_name = blueprint_object[0].gsub("Blueprint", "")
   blueprint_name += " (#{blueprint_object[1]})" if blueprint_object[1] != "default"
@@ -59,6 +63,7 @@ def generate_response_objects_section(docs_json_data)
         end
 
         type = format_type(field["type"], nullable: field["nullable"])
+        type = "array #{type}" if field["array"]
         section << "> #### `#{field["name"]}` <span class=\"object-type\">#{type}</span>\n>\n"
         section << "> #{mdx_text(field["description"])}\n>\n" if field["description"]
       end
