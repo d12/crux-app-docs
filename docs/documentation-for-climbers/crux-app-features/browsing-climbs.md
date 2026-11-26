@@ -18,14 +18,14 @@ By default, climbs are **sorted by set date**, with the most recently set climbs
 
 ## Searching by Name or Setter
 
-To **search for a climb**, type a **climb name** or **setter name** in the **"Search by name or setter..."** box at the top of the list. The list filters as you type: a climb **matches** if either its name or its setter's name contains your search term.
+To **search for a climb**, tap the **search icon** (magnifying glass) and type a **climb name** or **setter name**. The list filters as you type: a climb **matches** if either its name or its setter's name contains your search term.
 
 ---
 
 ## Using the Sort & Filter Menu
 
 To **refine your search**, use the **"Browse climbs"** menu:
-- Tap the **filter icon** next to the search bar.
+- Tap the **filter icon** at the top of the list.
 - Choose your **sort and filter options**.
 - Tap **"Search"** to apply them (or **"Reset"** to start over).
 
@@ -51,10 +51,15 @@ You can **filter climbs** by:
 - **Active status** – **Active** climbs (on the wall now), **Archived** climbs (taken down), or **All climbs**.
 - **Climbs with beta videos** – Show only climbs with **beta videos**.
 - **Area** – Filter by wall or area.
-- **Angle** – On [adjustable walls](/docs/documentation-for-climbers/homewall-specific-features/adustable-angle-walls.md), shows climbs at one angle: grades, and the grade filter and sort, are each climb's grade at that angle.
 - **Grade** – Pick one or more grades.
 - **Tags** – Filter climbs by **tags** (e.g., "Slopey", "Dynamic").
 - **Hold color** – On a gym's official climbs.
+
+---
+
+## Browsing at a Wall's Angle
+
+At gyms with [adjustable walls](/docs/documentation-for-climbers/homewall-specific-features/adustable-angle-walls.md), the top of the climb list has a **wall angle** button next to search. Tap it and pick the angle the wall is at right now: the wall's climbs then show, filter and sort by their **grade at that angle**, and open at that angle. Crux remembers the angle you picked for each wall.
 
 ---
 

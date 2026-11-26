@@ -31,6 +31,8 @@ Once you've sent a climb, the climb page shows how many times you've sent it and
 
 After logging a send, you can tap **"Share"** to share it as an image.
 
+On an [adjustable wall](/docs/documentation-for-climbers/homewall-specific-features/adustable-angle-walls.md), pick the angle you climbed at from the angle chips on the climb page first: the send, your attempts and any suggested grade are recorded at that angle (**"Mark as sent at 45°"**). Each angle is its own tick, so your first send at a new angle is a new send, not a repeat.
+
 ---
 
 ## Suggested Grades

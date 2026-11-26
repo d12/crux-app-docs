@@ -16,42 +16,70 @@ Angles are in **degrees past vertical**: **0°** is vertical and **40°** is a 4
 
 ---
 
-## Enabling the Feature
+## Choosing a Wall's Angles
 
 You can turn it on yourself for each wall:
 1. On your homewall page, tap **"Gym walls"**.
 2. Tap the wall, then **"Rename or change settings"** (or add a new wall).
 3. Tick **"Wall angle is adjustable"**.
 4. Under **"Angles it can be set to"**, pick every angle your wall can be set to (from 0°, vertical, up to 70°, in 5° steps).
+5. Tap **"Save"**.
 
-An angle that a climb on the wall is set at is always kept.
+<img src="/img/adjustable-wall-settings.png" alt="The wall settings in the Crux Climbing App, with Wall angle is adjustable ticked and the angles the wall can be set to." class="screenshot" />
+
+An angle that a climb on the wall is set at, or that has sends or grades, is always kept.
 
 ---
 
 ## Setting a Climb
 
-When setting a climb on an adjustable wall, choose the angle you set (and graded) it at in the **"Set at"** field.
+When you set a climb on an adjustable wall, choose the angle you set it at in the **"Wall angle"** field, and give your **"Grade"** at that angle.
 
-<img src="/img/angle-when-setting-climb.png" alt="When setting a climb on a homewall with the adjustable angle feature enabled, there is a field to select an angle." class="screenshot" />
+Under **"Grades at other angles"**, you can also give your grade at each of the wall's other angles. Leave an angle **ungraded** to go by climbers' grade suggestions there. You can change these at any time by editing the climb.
 
-When you edit the climb, **"Grades at other angles"** lets you give your own grade at each of the wall's other angles. Leave an angle blank to go by climbers' suggestions there.
+<img src="/img/angle-when-setting-climb.png" alt="Setting a climb on an adjustable wall in the Crux Climbing App: the Wall angle field, the grade, and grades at other angles." class="screenshot" />
 
 ---
 
 ## Climbing at Different Angles
 
-On a climb's page, pick an angle from the row of angles to see the climb's **grade at that angle**. A flag marks the angle it was set at. Logging a send (**"Mark as sent at 45°"**) or suggesting a grade records the angle you picked.
+On a climb's page, the row of **angle chips** under the climb's name shows the climb at each of the wall's angles, with its **grade at that angle**:
+- A **flag** marks the angle the climb was set at.
+- A grade in *italics* comes from climbers' grade suggestions rather than the setter.
+- An angle with no grade shows just the angle.
+
+Tap a chip to see the climb at that angle. Its grade, sends and grade suggestions are the ones at that angle.
+
+<img src="/img/climb-angle-chips.png" alt="A climb on an adjustable wall in the Crux Climbing App, with a chip for each angle and its grade there." class="screenshot" />
+
+### Logging Sends and Attempts
+
+Sends and attempts are logged at the angle you picked: the send dialog says **"Mark as sent at 45°"**, and any grade you suggest is for that angle.
+
+Each angle counts as its own tick. Sent a climb at 40° and want to try it at 45°? Pick **45°**, and the button shows **"Mark as sent"** again for your first send at that angle (and **"Log repeat"** after that).
+
+<img src="/img/mark-as-sent-at-angle.png" alt="Marking a climb as sent at 45° on an adjustable wall in the Crux Climbing App." class="screenshot" />
+
+### Beta Videos
+
+When you post a beta video on a climb on an adjustable wall, choose the angle it was filmed at under **"Filmed at"** (or **"Not sure"**). It starts at the angle you're viewing the climb at. The video then shows **"Filmed at 45°"** next to its date.
+
+<img src="/img/beta-video-filmed-at.png" alt="Beta videos on a climb on an adjustable wall in the Crux Climbing App, each showing the angle it was filmed at." class="screenshot" />
 
 ---
 
-## Browsing Climbs by Angle
+## Browsing Climbs at an Angle
 
-In the **climb list**, each climb shows the **angle** it was set at beside its name.
+Set the climb list to the angle your wall is at right now:
+1. Tap the **wall angle** button at the top of the climb list, next to search.
+2. Pick the angle your wall is at. At gyms with more than one adjustable wall, pick an angle for each wall, then tap **"Done"**.
 
-<img src="/img/angle-in-climb-list.png" alt="When browsing climbs in the climb list, climbs have an angle next to the name." class="screenshot" />
+<img src="/img/wall-angle-picker.png" alt="Picking the angle an adjustable wall is at from the climb list in the Crux Climbing App." class="screenshot" />
 
-To browse an adjustable wall's climbs at one angle:
-1. Tap the **filter icon** next to the search bar.
-2. Under **"Angle"**, choose an angle. Grades, and the grade filter and sort, are then each climb's grade at that angle. Choose **"Set angle"** to show each climb at the angle it was set at.
+Each of the wall's climbs then shows its **grade at that angle**, and the grade filter and sort use those grades. A climb set at a different angle shows the angle it was set at (like **"Set at 40°"**). With one adjustable wall, the angle you picked shows on the button.
 
-Crux remembers the angle you picked for each wall.
+<img src="/img/angle-in-climb-list.png" alt="The climb list in the Crux Climbing App at 45°, with each climb's grade at that angle and the angle it was set at." class="screenshot" />
+
+Tapping a climb opens it at that angle, ready to log a send. Until you pick an angle, each climb shows at the angle it was set at.
+
+Crux remembers the angle you picked for each wall, in the climb list and on climb pages.

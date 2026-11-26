@@ -19,6 +19,8 @@ To edit a climb:
 2. Select **"Edit climb."**
 3. Make changes to the climb's **details** or **image**, then tap **"Save climb"**.
 
+On an [adjustable wall](/docs/documentation-for-climbers/homewall-specific-features/adustable-angle-walls.md), you can also change the climb's **"Wall angle"** and its **"Grades at other angles"**.
+
 ### Editing the Climb Image
 
 #### Updating Holds on the Existing Image

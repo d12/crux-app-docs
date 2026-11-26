@@ -14,7 +14,7 @@ To share a photo or beta video:
 1. Open the **climb page** for the climb you want to post about.
 2. Stay on the **"Activity"** tab below the climb.
 3. Tap the **round button** in the bottom right.
-4. In **"Add a comment"**, write in **"Share your thoughts on this climb"** and tap the **camera** or **video** button to attach a photo or video. If someone else is climbing in the video, say who under **"Who's climbing?"**.
+4. In **"Add a comment"**, write in **"Share your thoughts on this climb"** and tap the **camera** or **video** button to attach a photo or video. If someone else is climbing in the video, say who under **"Who's climbing?"**. On an [adjustable wall](/docs/documentation-for-climbers/homewall-specific-features/adustable-angle-walls.md), choose the angle the video was filmed at under **"Filmed at"**.
 5. Tap **"Post"**.
 
 <img src="/img/posting-comments.png" alt="Posting a comment on a climb on the Crux Climbing App." class="screenshot" />

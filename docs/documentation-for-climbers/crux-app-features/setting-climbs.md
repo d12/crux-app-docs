@@ -20,7 +20,7 @@ To save time, you can also **re-use recently scanned photos**. More on that belo
 2. **Tap the round "+" button** – This opens the new climb form.
 3. **Choose a wall or photo** – **"Select a saved wall"**, or **"Scan an image"** to take a new photo, upload one, or re-use a recent one. (What you see depends on the gym's walls and settings.)
 4. **Select holds** – Tap holds, and add circuits, drawings or a crop if you like. Tap the checkmark when done.
-5. **Enter climb details** – Add a **climb name**, **proposed grade**, **feet rules**, and any other details.
+5. **Enter climb details** – Add a **climb name**, **grade**, **feet rules**, and any other details. On an [adjustable wall](/docs/documentation-for-climbers/homewall-specific-features/adustable-angle-walls.md), choose the **"Wall angle"** you set it at, and optionally its **"Grades at other angles"**.
 6. **Tap "Post climb"** – Your climb is now live for others to try. Nice work! (Or tap **"Save draft"** to finish it later; only you can see drafts.)
 
 :::info
@@ -86,7 +86,7 @@ How climbs are drawn (outline style, thickness, labels, how dark the wall is, ho
 ## Proposed Grade
 
 When you post a climb, you can:
-- Set a **proposed grade**
+- Set a **proposed grade** in the **"Grade"** field
 - Leave it **ungraded** and let climbers vote
 
 At most gyms, the grade automatically adjusts as climbers suggest grades when they log sends.
