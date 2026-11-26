@@ -5,7 +5,7 @@ sidebar_label: Adjustable Angle Walls
 
 # Adjustable Angle Walls for Homewalls
 
-:::warning
+:::info
 **Making a wall adjustable is available to our supporters on Patreon** (any tier), on any wall they can change the settings of, including their homewall's. At gyms on a [paid plan](/docs/documentation-for-gym-staff/about-crux/free-tier-vs-paid-plans.md), gym staff can make any wall adjustable. Once a wall is adjustable, every climber can climb, log and grade its climbs at each of its angles.
 [Learn more about supporting Crux on Patreon.](/docs/documentation-for-climbers/support-crux-on-patreon.md)
 :::
