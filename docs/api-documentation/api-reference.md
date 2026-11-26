@@ -20,7 +20,7 @@ This document is a reference for the Crux API. It contains information about the
 > 
 > ##### `id`
 > 
-> The ID of the climb to comment on. This parameter is required.
+> The ID of the climb to comment on. A merged climb's ID (a copy made to climb it at another angle) comments on the climb it was merged into. This parameter is required.
 > 
 > ##### `body`
 > 
@@ -104,7 +104,7 @@ This document is a reference for the Crux API. It contains information about the
 > 
 > ##### `climb_id`
 > 
-> The ID of the climb to add. This parameter is required.
+> The ID of the climb to add. A merged climb's ID (a copy made to climb it at another angle) adds the climb it was merged into. This parameter is required.
 > 
 > #### Authorization:
 > 
@@ -127,7 +127,7 @@ This document is a reference for the Crux API. It contains information about the
 > 
 > ##### `climb_id`
 > 
-> The ID of the climb to remove. This parameter is required.
+> The ID of the climb to remove. A merged climb's ID (a copy made to climb it at another angle) removes the climb it was merged into. This parameter is required.
 > 
 > #### Authorization:
 > 
@@ -140,7 +140,7 @@ This document is a reference for the Crux API. It contains information about the
 
 ### `GET /api/v1/climbs/:id`
 
-> Returns details for a specific climb, including drafts (which the gym climb lists leave out), so a climb returned as a wall's active climb can always be fetched.
+> Returns details for a specific climb, including drafts (which the gym climb lists leave out), so a climb returned as a wall's active climb can always be fetched. The ID of a climb that was merged into another (a copy made to climb it at another angle) returns the climb it was merged into, whose `id` differs from the one requested.
 > 
 > #### Parameters:
 > 
@@ -211,7 +211,7 @@ This document is a reference for the Crux API. It contains information about the
 > 
 > ##### `id`
 > 
-> The ID of the climb to retrieve drawings for. This parameter is required.
+> The ID of the climb to retrieve drawings for. A merged climb's ID acts on the climb it was merged into. This parameter is required.
 > 
 > #### Authorization:
 > 
@@ -230,7 +230,7 @@ This document is a reference for the Crux API. It contains information about the
 > 
 > ##### `id`
 > 
-> The ID of the climb to set as active. This parameter is required.
+> The ID of the climb to set as active. A merged climb's ID acts on the climb it was merged into. This parameter is required.
 > 
 > #### Authorization:
 > 
@@ -249,7 +249,7 @@ This document is a reference for the Crux API. It contains information about the
 > 
 > ##### `id`
 > 
-> The ID of the climb to deactivate. This parameter is required.
+> The ID of the climb to deactivate. A merged climb's ID acts on the climb it was merged into. This parameter is required.
 > 
 > #### Authorization:
 > 
@@ -464,7 +464,7 @@ This document is a reference for the Crux API. It contains information about the
 > 
 > ##### `id`
 > 
-> The ID of the climb you sent. This parameter is required.
+> The ID of the climb you sent. The ID of a climb that was merged into another (a copy made to climb it at another angle) logs the send on the climb it was merged into, at the copy's angle unless `angle` is given. This parameter is required.
 > 
 > ##### `send_date`
 > 
@@ -700,7 +700,7 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > The grade of the climb. This will be one of the gym's available grades.
 >
-> #### `grades_by_angle` <span class="object-type">[ClimbAngleGrade](#climbanglegrade)</span>
+> #### `grades_by_angle` <span class="object-type">array [ClimbAngleGrade](#climbanglegrade)</span>
 >
 > The climb's grade at each angle its wall can be set to, shallowest first. Angles are in positive degrees past vertical (0 is vertical); the set `angle` is included, with the climb's `grade`, and the grade is null at angles where the climb hasn't been graded. Only for climbs on walls with an adjustable angle; empty for other climbs.
 >
@@ -779,7 +779,7 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > The grade of the climb. This will be one of the gym's available grades.
 >
-> #### `grades_by_angle` <span class="object-type">[ClimbAngleGrade](#climbanglegrade)</span>
+> #### `grades_by_angle` <span class="object-type">array [ClimbAngleGrade](#climbanglegrade)</span>
 >
 > The climb's grade at each angle its wall can be set to, shallowest first. Angles are in positive degrees past vertical (0 is vertical); the set `angle` is included, with the climb's `grade`, and the grade is null at angles where the climb hasn't been graded. Only for climbs on walls with an adjustable angle; empty for other climbs.
 >
@@ -791,7 +791,7 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > The URL slug of the gym where the climb is located.
 >
-> #### `holds` <span class="object-type">[ClimbHold (on_climb)](#climbhold-on_climb)</span>
+> #### `holds` <span class="object-type">array [ClimbHold (on_climb)](#climbhold-on_climb)</span>
 >
 > List of holds in the climb.
 >
@@ -1093,7 +1093,7 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > Whether the wall's angle can be adjusted (for example a board on a hinge). An adjustable wall supports the angles in `angles`, and its climbs can be climbed at any of them.
 >
-> #### `angles` <span class="object-type">integer</span>
+> #### `angles` <span class="object-type">array integer</span>
 >
 > The angles the wall can be set to, in positive degrees past vertical (0 is vertical, 40 is a 40° overhang), shallowest first. `minimum_angle` and `maximum_angle` are the first and last. Its climbs can be climbed, sent and graded at each of these angles. Empty when `angle_adjustable` is false.
 >
@@ -1105,7 +1105,7 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > The wall's current photo, which new climbs are set on. Its holds are at `GET /api/v1/gym_walls/:id/holds`. Null if the wall has no photo.
 >
-> #### `holds` <span class="object-type">nullable [ClimbHold](#climbhold)</span>
+> #### `holds` <span class="object-type">array nullable [ClimbHold](#climbhold)</span>
 >
 > Deprecated: use `GET /api/v1/gym_walls/:id/holds`, which returns the same holds without including them in every wall. List of predicted holds on the wall.
 >
@@ -1148,7 +1148,7 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > When the holds were matched. Editing either photo's holds matches them again.
 >
-> #### `holds` <span class="object-type">[HoldMappingHold](#holdmappinghold)</span>
+> #### `holds` <span class="object-type">array [HoldMappingHold](#holdmappinghold)</span>
 >
 > Every hold on this photo, with the ID of the same hold on the previous photo when it was matched, or of the hold it replaced when it was swapped for it.
 >
@@ -1361,7 +1361,7 @@ These are the definitions of the objects returned by the API. Some objects have 
 >
 > The height of the photo in pixels. Hold masks on this photo are in these pixels.
 >
-> #### `holds` <span class="object-type">[ClimbHold](#climbhold)</span>
+> #### `holds` <span class="object-type">array [ClimbHold](#climbhold)</span>
 >
 > The holds found on the photo. Empty if the photo was never scanned for holds.
 >
